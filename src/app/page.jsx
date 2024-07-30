@@ -12,7 +12,7 @@ const page = () => {
           <div className="nav-link">
             <ul className='flex list-none'>
               <li className='mx-2 my-2 px-2'>
-                <Link href="#" className="text-black text-lg font-medium no-underline">Home</Link>
+                <Link href="/login" className="text-black text-lg font-medium no-underline">Login</Link>
               </li>
               <li className='mx-2 my-2 px-2'>
                 <Link href="#" className="text-black text-lg font-medium no-underline">About</Link>
