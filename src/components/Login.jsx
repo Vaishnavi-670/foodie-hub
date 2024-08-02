@@ -13,7 +13,7 @@ const Login = () => {
                         <p className="underline m-0 text-right text-gray-600">
                             <span className="cursor-pointer font-sans text-xs font-bold hover:text-black">Forgot Password?</span>
                         </p>
-                        <button className="p-2.5 font-sans rounded-full border-0 outline-none bg-teal-500 text-white text-base cursor-pointer shadow-md active:shadow-none">Login</button>
+                        <button className="p-2.5 font-sans rounded-full border-0 outline-none bg-teal-500 text-white text-base cursor-pointer shadow-md active:shadow-none hover:bg-teal-600">Login</button>
                     </form>
 
                 </div>
