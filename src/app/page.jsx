@@ -3,17 +3,19 @@ import React from 'react'
 
 const page = () => {
   return (
-    
-    <div className=" hero ">
-    {/* <nav className="flex justify-between items-center h-20 w-full">
-      <div className="nav-image">
-        <img style={{ width: 150 }} src='https://s.tmimgcdn.com/scr/1200x627/242400/food-delivery-custom-design-logo-template_242462-original.png'></img>
-      </div>
-      </nav> */}
-      <h1>my food delivery </h1>
+    <>
+    <img src="" alt="" />
+      <div className="flex flex-col gap-10 justify-center items-center ">
+        <h1 className="text-6xl font-bold  justify-center items-center">Welcome to Foodie Hub</h1>
+        <p>Discover the best food in town, curated by our experts.</p>
+        <Link href="/search">
+          <button className="text-white bg-blue-500 hover:bg-blue-700 px-12 py-4 rounded-lg">Get Started</button>
+        </Link>
+
       </div>
 
-    
+    </>
+
   )
 }
 
