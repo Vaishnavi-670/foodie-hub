@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link href="/services" className="text-black text-lg font-medium no-underline">Service</Link>
           </li>
           <li className='mx-2 my-2 px-2'>
-            <Link href="#" className="text-black text-lg font-medium no-underline">Contact</Link>
+            <Link href="/contact" className="text-black text-lg font-medium no-underline">Contact</Link>
           </li>
         </ul>
       </div>
