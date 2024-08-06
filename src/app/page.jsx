@@ -45,6 +45,43 @@ const page = () => {
       </div>
     </div>
   </div>
+  {/* menu */}
+  <div className='h-[400px] flex flex-col  w-full'>
+    <h1 className='text-center text-5xl mt-0 p-0 text-orange-600 font-bold'>Our Menu</h1>
+    <div className=' flex '>
+    <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img className='rounded-full object-fill h-full w-full' src="https://i.pinimg.com/236x/5d/e2/f3/5de2f31794bbeb3c9187a2cf24cba193.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+  
+  <div className="ml-4 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img style={{position:'center',objectFit:'cover'}} className='rounded-full  h-full w-full' src="https://i.pinimg.com/236x/a6/bd/06/a6bd06875bbca924cda90bc9885725fd.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+  <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/ab/22/b2/ab22b27ab8d6f9efc765feb700c3d6a2.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+  <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/14/98/0a/14980a9bec3957e4b5b56c026afdb8e2.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+  <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/69/6d/01/696d01e1564a8a489ff21c232a55adbc.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+  <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/89/3d/8d/893d8d574c1506d17b2f1cb565453797.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+  <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
+      <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg" alt="" />
+      <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+  </div>
+   
+    </div>
+    
+  </div>
 
   <div className="z-30 relative items-center justify-center w-full h-full overflow-auto">
       <div
@@ -90,7 +127,224 @@ const page = () => {
         </div>
       </div>
     </div>
-                  
+    <div className="container-box mt-9">
+  <div className="card-left">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/95/c6/e8/95c6e8d215c25db692ecfbb7b138a2db.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div className="card-top">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/eb/bf/0e/ebbf0e54e8c2f6d8dd5b9fb5df59a6ac.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Quisque cursus, metus vitae pharetra auctor.</p>
+    </div>
+  </div>
+  <div className="card-right">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/b3/60/a4/b360a434d036bf60482dd57893fb4d2d.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Ut eu diam at pede suscipit sodales.</p>
+    </div>
+  </div>
+  
+  <div className="card-right">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/c4/40/0f/c4400f1f2c8441cb7c6eea6844a79135.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
+    </div>
+  </div>
+  <div className="card-top">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/26/c6/4b/26c64bef44546cdc05bc2233168f32ac.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div className="card-bottom">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/e9/a5/5a/e9a55a84854bc28bd50ab81960f371e8.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Ut eu diam at pede suscipit sodales.</p>
+    </div>
+  </div>
+  <div className="card-left">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/1b/ad/61/1bad61c9ba4d8eb85e8a775605290a80.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div className="card-bottom">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/76/15/16/761516543db4e3a85bbae9de0eeb0c75.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Quisque cursus, metus vitae pharetra auctor.</p>
+    </div>
+  </div>
+  <div className="card-right">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/53/95/16/539516b637f59351cb96024a174fcfb1.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div className="card-top">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/a7/c2/55/a7c255c3e78d2d36e70a36f059e94eac.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Integer lacinia sollicitudin massa. Cras metus.</p>
+    </div>
+  </div>
+  <div className="card-left">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/d7/d7/b4/d7d7b45ee250f40f075d3beb2607b8ea.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div className="card-left">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/86/19/6a/86196a719c94e17763f55fe697f7e7dd.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Ut eu diam at pede suscipit sodales.</p>
+    </div>
+  </div>
+  <div className="card-top">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/474x/de/fe/83/defe834104aa7939e00dda5b3956b182.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div className="card-bottom">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/67/f0/ed/67f0edd24c5e55da071304c0c7d264dd.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Quisque cursus, metus vitae pharetra auctor.</p>
+    </div>
+  </div>
+  <div className="card-top">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/dd/5b/e7/dd5be76e6403afadd208235bc2b78822.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
+    </div>
+  </div>
+  <div className="card-right">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/d7/d0/b7/d7d0b7d9ef3be7d532d7b7f12149272e.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Ut eu diam at pede suscipit sodales.</p>
+    </div>
+
+  </div>
+  <div className="card-right">
+    <div className="card-image">
+      <img src="https://i.pinimg.com/236x/5f/67/03/5f6703d600dc71d1ea9eff1d3383231b.jpg" />
+    </div>
+    <div className="card-text">
+      <p>Ut eu diam at pede suscipit sodales.</p>
+    </div>
+
+  </div>
+
+</div>
+<div className="outer   min-h-[800px]">
+<h1 className="text-6xl mt-16 font-bold  text-center text-orange-600 ">Best Selling Food</h1>
+<p className="text-black text-xl mt-4 font-bold  text-center">Discover the Amazing Flavor That Has Won Over Hearts and Taste Buds Everywhere</p>
+
+  <div className="Box relative mt-28 w-full flex items-center justify-center flex-nowrap ">
+    <div className="Card relative max-w-[300px] h-[215px]  m-4 p-5 flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-lg hover:h-[320px] ">
+      <div className="image relative w-[260px] h-[260px] -top-1/2 left-2 shadow-md z-10">
+        <img
+          href="#"
+          src="https://i.pinimg.com/474x/7f/80/2e/7f802e8e999de09e47b8075adec8f3d5.jpg"
+          className="max-w-full rounded-lg h-[230px]"
+        />
+      </div>
+      <div className="content relative  p-0 text-gray-900 -top-[140px] opacity-0 text-center   transition-all duration-300 ease-in-out hover:mt-8 hover:visible hover:opacity-100 hover:transition-delay-200">
+      <h3 className=" font-bold mb-2">Chocolate Cake: A Rich and Irresistible Delight</h3>
+      <p className="text-black  text-sm">Our cake is a masterpiece of baking perfection, combining moist, fluffy layers with rich, creamy frosting to create a dessert that is both irresistible and unforgettable. </p>
+      </div>
+    </div>
+    <div className="Card relative max-w-[300px] h-[215px] bg-white  m-4 p-5 flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-lg hover:h-[320px]">
+      <div className="image relative w-[260px] h-[260px] -top-1/2 left-2 shadow-md z-10">
+        <img
+          href="#"
+          src="https://i.pinimg.com/236x/5c/c9/3d/5cc93d7b4c358a5f25f3f1f02d80acae.jpg"
+          className="max-w-full rounded-lg h-[230px]"
+        />
+      </div>
+      <div className="content relative -top-[140px] p-0 text-gray-900 text-center  opacity-0 transition-all duration-300 ease-in-out hover:mt-8 hover:visible hover:opacity-100 hover:transition-delay-200">
+      <h3 className=" font-bold mb-2">Ultimate Combo: Cold Drink, Fries, and Burger Meal</h3>
+      <p className="text-black text-sm">Indulge in the ultimate meal experience with our cold drink, fries, and burger combo. This classic trio is the perfect choice for anyone looking for a satisfying meal.</p>
+      </div>
+    </div>
+    <div className="Card relative max-w-[300px] h-[215px] bg-white m-4 p-5 flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-lg hover:h-[320px]">
+      <div className="image relative w-[260px] h-[260px] -top-1/2 left-2 shadow-md z-10">
+        <img
+          href="#"
+          src="https://i.pinimg.com/236x/c3/8f/84/c38f847c770efc30085e2593e3dcfbe0.jpg"
+          className="max-w-full rounded-lg"
+        />
+      </div>
+      <div className="content relative -top-[140px] p-0 text-gray-900 text-center  opacity-0 transition-all duration-300 ease-in-out hover:mt-8 hover:visible hover:opacity-100 hover:transition-delay-200">
+      <h3 className=" font-bold mb-2">Ultimate KFC Chicken Meal Combo</h3>
+      <p className="text-black text-sm">This trio offers the ultimate KFC experience, combining our famous chicken with crispy fries and a refreshing drink to create a meal that's both satisfying and delicious.</p>
+      </div>
+    </div>
+    <div className="Card relative max-w-[300px] h-[215px] bg-white m-4 p-5 flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-lg hover:h-[320px]">
+      <div className="image relative w-[260px] h-[260px] -top-1/2 left-2 shadow-md z-10">
+        <img
+          href="#"
+          src="https://i.pinimg.com/236x/fb/2c/53/fb2c537e39e393fd97e9843bd44fac32.jpg"
+          className="max-w-full rounded-lg"
+        />
+      </div>
+      <div className="content relative -top-[140px] p-0 text-gray-900 text-center  opacity-0 transition-all duration-300 ease-in-out hover:mt-8 hover:visible hover:opacity-100 hover:transition-delay-200">
+      <h3 className=" font-bold mb-2">Perfect Combo: Cold Drink, Fries, and KFC Chicken Burgur</h3>
+      <p className="text-black text-sm">Treat yourself to the perfect combination of flavors and satisfaction with our Cold Drink, Fries, and KFC Burger Combo And ensuring a delicious, fulfilling dining experience.</p>
+      </div>
+    </div>
+    <div className="Card relative max-w-[300px] h-[215px] bg-white m-4 p-5 flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-lg hover:h-[320px]">
+      <div className="image relative w-[260px] h-[260px] -top-1/2 left-2 shadow-md z-10">
+        <img
+          href="#"
+          src="https://i.pinimg.com/564x/25/bb/62/25bb62c03bd13ccec5f48c9df3ddcfba.jpg"
+          className="max-w-full ml-6 rounded-lg h-[240px] "
+        />
+      </div>
+      <div className="content relative -top-[140px] p-0 text-gray-900 text-center  opacity-0 transition-all duration-300 ease-in-out hover:mt-8 hover:visible hover:opacity-100 hover:transition-delay-200">
+      <h3 className=" font-bold mb-2">Refreshing Mojito: A Classic Cocktail Delight</h3>
+      <p className="text-black text-sm"> This classic cocktail is the perfect blend of vibrant flavors, designed to invigorate your senses and provide a delightful escape from the ordinary.</p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+
 
     </>
 
