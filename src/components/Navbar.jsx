@@ -3,11 +3,12 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-transparent'>
+    <div className='bg-transparent rounded-lg'>
         <nav className="flex justify-between items-center h-20 w-full">
       <div className="nav-image">
         <img style={{ width: 150 }} src='https://s.tmimgcdn.com/scr/1200x627/242400/food-delivery-custom-design-logo-template_242462-original.png'></img>
       </div>
+      
       <div className="nav-link">
         <ul className='flex list-none'>
           <li className='mx-2 my-2 px-2'>

@@ -7,7 +7,7 @@ const page = () => {
 
       {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
 
-      <div className="  text-black py-20 flex flex-col">
+      <div className="  text-black py-20 flex flex-col bg-orange-100">
         <div className="container mx-auto flex flex-col  md:flex-row items-start justify-center  md:my-24">
           <div className=" w-full mt-7 lg:w-1/3 justify-center items-start ">
             <h1 className="text-6xl mt-7 font-bold  text-center text-orange-600 ">Welcome to Foodie Hub</h1>
@@ -46,8 +46,8 @@ const page = () => {
         </div>
       </div>
       {/* menu */}
-      <div className='h-[400px] flex flex-col  w-full'>
-        <h1 className='text-center text-5xl mt-0 p-0 text-orange-600 font-bold'>Our Menu</h1>
+      <div className='h-[400px] flex flex-col   w-full'>
+        <h1 className='text-center text-5xl mt-4 p-0 text-orange-600 font-bold'>Our Menu</h1>
         <div className=' flex '>
           <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
             <img className='rounded-full object-fill h-full w-full' src="https://i.pinimg.com/236x/5d/e2/f3/5de2f31794bbeb3c9187a2cf24cba193.jpg" alt="" />
@@ -125,6 +125,32 @@ const page = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='h-[600px] w-full flex flex-col'>
+        <h1 className='text-center text-5xl mt-10 p-0 text-black font-bold'>How We <span className='text-orange-600'>Serve</span> you</h1>
+        <div className='flex justify-evenly mt-12 h-96 w-full'>
+        <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+          <div className='flex justify-center  h-56 w-56'>
+            <img className='h-full w-full'  src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />
+          </div>
+          <h3 className='text-black font-bold text-xl'>Packed with Love</h3>
+          <p className='mt-3 w-48'> We deliver the best experiences</p>
+        </div>
+        <div className=' p-6 rounded-lg w-80 shadow-lg items-center text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+          <div className='flex justify-center  h-56 w-56'>
+            <img className='h-full w-full' src="https://media.istockphoto.com/id/482021162/photo/takeout-delivery-fast-food-bag-package-container.jpg?s=612x612&w=0&k=20&c=Ln93iQgaV20A5TUbFvdYTHjHxe2q4PRjl2YG4zyK1gw=" alt="" />
+          </div>
+          <h3 className='text-black font-bold text-xl'>Automated Packaging</h3>
+          <p className='mt-3'> 100% environment friendly packaging</p>
+        </div>
+        <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+          <div className='flex justify-center items-center h-56 w-56'>
+            <img className='h-full w-full' src="https://media.istockphoto.com/id/1981881148/photo/popcorn-buckets-in-a-big-heap-of-popcorn-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=YvjS3WbOhAWuSftd5-sgof-Aaw6grpGZxRDSMspspug=" alt="" />
+          </div>
+          <h3 className='text-black font-bold text-xl'>Serve hot Appetite</h3>
+          <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
+        </div>
         </div>
       </div>
      
