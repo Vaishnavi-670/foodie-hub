@@ -54,8 +54,7 @@ const page = () => {
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
 
-          <div className="ml-4 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img style={{ position: 'center', objectFit: 'cover' }} className='rounded-full  h-full w-full' src="https://i.pinimg.com/236x/a6/bd/06/a6bd06875bbca924cda90bc9885725fd.jpg" alt="" />
+          <div className="ml-4 rounded-full flex flex-col mt-9 w-[270px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
           <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
@@ -80,6 +79,20 @@ const page = () => {
           </div>
 
         </div>
+
+      </div>
+      {/* we eat like a family */}
+      <div className='flex h-[600px]'>
+        
+        <div className=''>
+          <div className="ml-3 rounded-full  mt-9  h-[250px] w-[270px] bg-slate-500">
+            <img className='rounded-full object-fill h-full w-full' src="https://i.pinimg.com/236x/5d/e2/f3/5de2f31794bbeb3c9187a2cf24cba193.jpg" alt="" />
+          </div>
+
+      </div>
+      <div>
+      <h1 className=' text-5xl mt-4 p-0 text-orange-600 font-bold'>We Eat Like a Family</h1>
+      </div>
 
       </div>
 
@@ -367,6 +380,7 @@ const page = () => {
               <p className="text-black text-sm"> This classic cocktail is the perfect blend of vibrant flavors, designed to invigorate your senses and provide a delightful escape from the ordinary.</p>
             </div>
           </div>
+          
 
         </div>
       </div>

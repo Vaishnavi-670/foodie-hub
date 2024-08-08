@@ -14,10 +14,7 @@ const Resturant = () => {
         {
           login ? <Login /> : <Signup />
         }
-        <div>
-        <button className='button-link btn btn-link text-primary border-0 m-2' onClick={() => setlogin(!login)}>
-          {login ? "Do not have Account ?Signup" : " ALready have an Account ?Login"}
-        </button></div>
+        
       </div>
       {/* <ResturantFooter/> */}
       
