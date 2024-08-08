@@ -10,12 +10,12 @@ const page = () => {
       <div className="  text-black py-20 flex flex-col bg-orange-100 ">
         <div className="container mx-auto flex flex-col   md:flex-row items-start justify-center  md:my-24">
           <div className=" w-full mt-7 lg:w-1/3 justify-center items-start ">
-            <h1 className="text-6xl mt-7 font-bold  text-center text-orange-600 ">Welcome to Foodie Hub</h1>
+            <h1 className="text-6xl mt-7 font-bold  text-center text-orange-800 ">Welcome to Foodie Hub</h1>
             <h2 className="text-3xl mt-5 leading-relaxed md:leading-snug mb-2">Take a taste Come join us</h2>
             <p className="text-sm mt-3 md:text-base text-black mb-4">
               Discover the best food in town, curated by our experts.        </p>
             <Link href="/search">
-              <button className=" text-black mt-2 bg-yellow-300 hover:bg-yellow-400  px-12 py-4 rounded-lg">Explore more</button>
+              <button className=" text-black mt-2 bg-yellow-400 hover:bg-yellow-500  px-12 py-4 rounded-lg">Explore more</button>
             </Link>
           </div>
           <div className="p-8 mt-12 mb-6 md:ml-12 justify-center">
@@ -45,14 +45,14 @@ const page = () => {
           </div>
         </div>
       </div>
-      {/* menu */} 
+      {/* menu */}
       <div className='h-[400px]   flex flex-col   w-full'>
-        <h1 className='text-center text-5xl mt-7 p-0 text-orange-600 hover:text-orange-700  font-bold'>Our Menu</h1>
+        <h1 className='text-center text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900  font-bold'>Our Menu</h1>
         <div className=' flex '>
           <div className="ml-4 menu-item rounded-full  flex flex-col mt-6 h-[220px] w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-          
+
             {/* <h2 className='text-center  mt-60 text-lg'>Coffee</h2> */}
-          </div>    
+          </div>
           <div className="ml-4 menu-item  rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/f4/49/ac/f449ac2876d4f16f71cb8a2bba007e27.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
           <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/0a/62/70/0a627091e0fb0d6dcbea50a24452d380.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -65,12 +65,12 @@ const page = () => {
           </div>
           <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a0/cb/e2/a0cbe2c73e1185e727a74e22a782bc97.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-          
+
 
         </div>
 
       </div>
-    
+
 
       <div className="z-30 relative items-center justify-center w-full h-full overflow-auto">
         <div
@@ -117,7 +117,7 @@ const page = () => {
         </div>
       </div>
       <div className='h-[600px] w-full flex flex-col'>
-        <h1 className='text-center text-5xl mt-10 p-0 text-black font-bold'>How We <span className='text-orange-600'>Serve</span> you</h1>
+        <h1 className='text-center text-5xl mt-10 p-0 text-black font-bold'>How We <span className='text-orange-800'>Serve</span> you</h1>
         <div className='flex justify-evenly mt-12 h-96 w-full'>
           <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
             <div className='flex justify-center  h-56 w-56'>
@@ -287,7 +287,7 @@ const page = () => {
       </div>
 
       <div className="outer   min-h-[800px]">
-        <h1 className="text-6xl mt-16 font-bold  text-center text-orange-600 ">Best Selling Food</h1>
+        <h1 className="text-6xl mt-16 font-bold  text-center text-orange-800 ">Best Selling Food</h1>
         <p className="text-black text-xl mt-4 font-bold  text-center">Discover the Amazing Flavor That Has Won Over Hearts and Taste Buds Everywhere</p>
 
         <div className="Box relative mt-28 w-full flex items-center justify-center flex-nowrap ">
@@ -358,6 +358,78 @@ const page = () => {
           </div>
         </div>
       </div>
+
+
+      <footer data-scroll-section="">
+        <div className="mx-auto">
+          <div className="relative top-20 z-10 w-3/4 mx-auto p-10 flex justify-between bg-white rounded-b-3xl shadow-lg" data-scroll="" data-scroll-speed="5">
+            <h1 className="text-4xl font-black mt-6 text-orange-800">Subscribe To Our Newsletter</h1>
+            <div className="w-2/5 mt-3">
+              <input type="email" placeholder="enter your email here" className="mr-7 p-3.5 bg-gray-200 w-2/5 rounded-lg border-none text-gray-400 font-semibold outline-none" />
+              <button className="p-3.5 w-2/5 bg-orange-800 rounded-lg text-white font-semibold tracking-wider mt-4 outline-none">Subscribe</button>
+            </div>
+          </div>
+          <div className="bg-orange-800 py-28">
+            <div className="relative top-12 w-4/5 mx-auto flex justify-between">
+              <div className="text-white">
+                <h1 className="text-5xl">Foodie Hub</h1>
+                <i className="fa fa-twitter text-4xl tracking-wider" aria-hidden="true"></i>
+                <i className="fa fa-facebook text-4xl tracking-wider" aria-hidden="true"></i>
+                <i className="fa fa-instagram text-4xl tracking-wider" aria-hidden="true"></i>
+                <i className="fa fa-linkedin text-4xl tracking-wider" aria-hidden="true"></i>
+                <p className="pt-2">foodiehub@gmail.com</p>
+                <p className="pt-2">(+62) 81234567890</p>
+              </div>
+              <ul className="list-none">
+                <li className="mt-5">
+                  <h3 className="text-2xl font-bold">About Us</h3>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Find a location</a>
+                </li>
+                <li class="mt-5">
+                  <a href="#" className="text-lg text-white">Our Info</a>
+                </li>
+                <li class="mt-5">
+                  <a href="#" className="text-lg text-white">Features</a>
+                </li>
+              </ul>
+              <ul className="list-none">
+                <li className="mt-5">
+                  <h3 className="text-2xl font-bold">Service</h3>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Shop</a>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Order ahead</a>
+                </li >
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Menu</a>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Gift Cards</a>
+                  </li>
+              </ul>
+              <ul className="list-none">
+                <li className="mt-5">
+                  <h3 className="text-2xl font-bold">Privacy</h3>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Privacy Policy</a>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white">Terms &amp; Condition</a>
+                </li>
+                <li className="mt-5">
+                  <a href="#" className="text-lg text-white"> Cookies </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
