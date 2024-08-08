@@ -358,8 +358,6 @@ const page = () => {
           </div>
         </div>
       </div>
-
-
       <footer data-scroll-section="">
         <div className="mx-auto">
           <div className="relative top-20 z-10 w-3/4 mx-auto p-10 flex justify-between bg-white rounded-b-3xl shadow-lg" data-scroll="" data-scroll-speed="5">
