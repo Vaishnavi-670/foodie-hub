@@ -49,34 +49,28 @@ const page = () => {
       <div className='h-[400px] flex flex-col   w-full'>
         <h1 className='text-center text-5xl mt-4 p-0 text-orange-600 font-bold'>Our Menu</h1>
         <div className=' flex '>
-          <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-full w-full' src="https://i.pinimg.com/236x/5d/e2/f3/5de2f31794bbeb3c9187a2cf24cba193.jpg" alt="" />
+        <div className="ml-4 rounded-full pl-2 flex flex-col mt-9 h-[250px] w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
 
-          <div className="ml-4 rounded-full flex flex-col mt-9 w-[270px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
-          <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/ab/22/b2/ab22b27ab8d6f9efc765feb700c3d6a2.jpg" alt="" />
+          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
-          <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/14/98/0a/14980a9bec3957e4b5b56c026afdb8e2.jpg" alt="" />
+          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
-          <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/69/6d/01/696d01e1564a8a489ff21c232a55adbc.jpg" alt="" />
+          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
-          <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/89/3d/8d/893d8d574c1506d17b2f1cb565453797.jpg" alt="" />
+          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
           </div>
-          <div className="ml-3 rounded-full flex flex-col  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-[250px] w-[270px]' src="https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg" alt="" />
+          {/* <div className="ml-4 rounded-full flex flex-col mt-9 w-[270px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <h2 className='text-center mt-3 text-lg'>Coffee</h2>
-          </div>
+          </div> */}
 
         </div>
 
