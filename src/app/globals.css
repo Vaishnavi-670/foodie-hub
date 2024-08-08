@@ -201,6 +201,13 @@
 #c4 {
   background-color: green;
 }
+/* menu item */
+.menu-item {
+  transition: transform 0.3s;
+}
+.menu-item:hover {
+  transform: rotate(10deg);
+}
 
 .main-card:hover #c1 {
   transform: translateX(-100px) rotate(-40deg);

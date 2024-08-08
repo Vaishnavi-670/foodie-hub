@@ -7,8 +7,8 @@ const page = () => {
 
       {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
 
-      <div className="  text-black py-20 flex flex-col bg-orange-100">
-        <div className="container mx-auto flex flex-col  md:flex-row items-start justify-center  md:my-24">
+      <div className="  text-black py-20 flex flex-col bg-orange-100 ">
+        <div className="container mx-auto flex flex-col   md:flex-row items-start justify-center  md:my-24">
           <div className=" w-full mt-7 lg:w-1/3 justify-center items-start ">
             <h1 className="text-6xl mt-7 font-bold  text-center text-orange-600 ">Welcome to Foodie Hub</h1>
             <h2 className="text-3xl mt-5 leading-relaxed md:leading-snug mb-2">Take a taste Come join us</h2>
@@ -45,50 +45,32 @@ const page = () => {
           </div>
         </div>
       </div>
-      {/* menu */}
-      <div className='h-[400px] flex flex-col   w-full'>
-        <h1 className='text-center text-5xl mt-4 p-0 text-orange-600 font-bold'>Our Menu</h1>
+      {/* menu */} 
+      <div className='h-[400px]   flex flex-col   w-full'>
+        <h1 className='text-center text-5xl mt-7 p-0 text-orange-600 hover:text-orange-700  font-bold'>Our Menu</h1>
         <div className=' flex '>
-        <div className="ml-4 rounded-full pl-2 flex flex-col mt-9 h-[250px] w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+          <div className="ml-4 menu-item rounded-full  flex flex-col mt-6 h-[220px] w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          
+            {/* <h2 className='text-center  mt-60 text-lg'>Coffee</h2> */}
+          </div>    
+          <div className="ml-4 menu-item  rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/f4/49/ac/f449ac2876d4f16f71cb8a2bba007e27.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-
-          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/0a/62/70/0a627091e0fb0d6dcbea50a24452d380.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/68/c2/40/68c240f5797946566996da6780c9b61e.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/78/71/75/78717588ec02b0cd47dd772a60d69703.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/ab/22/b2/ab22b27ab8d6f9efc765feb700c3d6a2.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-          <div className="ml-4 rounded-full flex flex-col mt-9 w-[250px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a0/cb/e2/a0cbe2c73e1185e727a74e22a782bc97.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-          {/* <div className="ml-4 rounded-full flex flex-col mt-9 w-[270px] bg-slate-500" style={{ backgroundImage: "url('https://liliyum.com/cdn/shop/products/Teddybearbirthdaycakewithlollipop_800x.jpg?v=1633068942')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <h2 className='text-center mt-3 text-lg'>Coffee</h2>
-          </div> */}
+          
 
         </div>
 
       </div>
-      {/* we eat like a family */}
-      <div className='flex h-[600px]'>
-        
-        <div className=''>
-          <div className="ml-3 rounded-full  mt-9  h-[250px] w-[270px] bg-slate-500">
-            <img className='rounded-full object-fill h-full w-full' src="https://i.pinimg.com/236x/5d/e2/f3/5de2f31794bbeb3c9187a2cf24cba193.jpg" alt="" />
-          </div>
-
-      </div>
-      <div>
-      <h1 className=' text-5xl mt-4 p-0 text-orange-600 font-bold'>We Eat Like a Family</h1>
-      </div>
-
-      </div>
+    
 
       <div className="z-30 relative items-center justify-center w-full h-full overflow-auto">
         <div
@@ -137,31 +119,31 @@ const page = () => {
       <div className='h-[600px] w-full flex flex-col'>
         <h1 className='text-center text-5xl mt-10 p-0 text-black font-bold'>How We <span className='text-orange-600'>Serve</span> you</h1>
         <div className='flex justify-evenly mt-12 h-96 w-full'>
-        <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
-          <div className='flex justify-center  h-56 w-56'>
-            <img className='h-full w-full'  src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />
+          <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+            <div className='flex justify-center  h-56 w-56'>
+              <img className='h-full w-full' src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />
+            </div>
+            <h3 className='text-black font-bold text-xl'>Packed with Love</h3>
+            <p className='mt-3 w-48'> We deliver the best experiences</p>
           </div>
-          <h3 className='text-black font-bold text-xl'>Packed with Love</h3>
-          <p className='mt-3 w-48'> We deliver the best experiences</p>
-        </div>
-        <div className=' p-6 rounded-lg w-80 shadow-lg items-center text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
-          <div className='flex justify-center  h-56 w-56'>
-            <img className='h-full w-full' src="https://media.istockphoto.com/id/482021162/photo/takeout-delivery-fast-food-bag-package-container.jpg?s=612x612&w=0&k=20&c=Ln93iQgaV20A5TUbFvdYTHjHxe2q4PRjl2YG4zyK1gw=" alt="" />
+          <div className=' p-6 rounded-lg w-80 shadow-lg items-center text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+            <div className='flex justify-center  h-56 w-56'>
+              <img className='h-full w-full' src="https://media.istockphoto.com/id/482021162/photo/takeout-delivery-fast-food-bag-package-container.jpg?s=612x612&w=0&k=20&c=Ln93iQgaV20A5TUbFvdYTHjHxe2q4PRjl2YG4zyK1gw=" alt="" />
+            </div>
+            <h3 className='text-black font-bold text-xl'>Automated Packaging</h3>
+            <p className='mt-3'> 100% environment friendly packaging</p>
           </div>
-          <h3 className='text-black font-bold text-xl'>Automated Packaging</h3>
-          <p className='mt-3'> 100% environment friendly packaging</p>
-        </div>
-        <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
-          <div className='flex justify-center items-center h-56 w-56'>
-            <img className='h-full w-full' src="https://media.istockphoto.com/id/1981881148/photo/popcorn-buckets-in-a-big-heap-of-popcorn-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=YvjS3WbOhAWuSftd5-sgof-Aaw6grpGZxRDSMspspug=" alt="" />
+          <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+            <div className='flex justify-center items-center h-56 w-56'>
+              <img className='h-full w-full' src="https://media.istockphoto.com/id/1981881148/photo/popcorn-buckets-in-a-big-heap-of-popcorn-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=YvjS3WbOhAWuSftd5-sgof-Aaw6grpGZxRDSMspspug=" alt="" />
+            </div>
+            <h3 className='text-black font-bold text-xl'>Serve hot Appetite</h3>
+            <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
           </div>
-          <h3 className='text-black font-bold text-xl'>Serve hot Appetite</h3>
-          <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
-        </div>
         </div>
       </div>
-     
-        <div className="container-box mt-9">
+
+      <div className="container-box mt-9">
         <div className="card-left">
           <div className="card-image">
             <img src="https://i.pinimg.com/236x/95/c6/e8/95c6e8d215c25db692ecfbb7b138a2db.jpg" />
@@ -374,16 +356,9 @@ const page = () => {
               <p className="text-black text-sm"> This classic cocktail is the perfect blend of vibrant flavors, designed to invigorate your senses and provide a delightful escape from the ordinary.</p>
             </div>
           </div>
-          
-
         </div>
       </div>
-
-
-
-
     </>
-
   )
 }
 
