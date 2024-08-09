@@ -7,16 +7,36 @@ const page = () => {
 
       {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
 
-      <div className="  text-black py-20 flex flex-col bg-orange-100 ">
-        <div className="container mx-auto flex flex-col   md:flex-row items-start justify-center  md:my-24">
-          <div className=" w-full mt-7 lg:w-1/3 justify-center items-start ">
-            <h1 className="text-6xl mt-7 font-bold  text-center text-orange-800 ">Welcome to Foodie Hub</h1>
+      <div className="  text-black py-20 flex flex-col ">
+        <div className="container mx-auto flex flex-col font-semibold  md:flex-row items-start justify-center  md:my-24">
+        <div className=" w-full mt-7 lg:w-1/3 justify-center items-start ">
+              <h1 className="text-6xl mt-7 font-bold   text-center text-orange-800 ">Welcome to Foodie Hub</h1>
             <h2 className="text-3xl mt-5 leading-relaxed md:leading-snug mb-2">Take a taste Come join us</h2>
             <p className="text-sm mt-3 md:text-base text-black mb-4">
               Discover the best food in town, curated by our experts.        </p>
             <Link href="/search">
-              <button className=" text-black mt-2 bg-yellow-400 hover:bg-yellow-500  px-12 py-4 rounded-lg">Explore more</button>
+              {/* <button className=" text-black mt-2 bg-orange-400 hover:bg-orange-500  px-12 py-4 rounded-lg">Explore more</button> */}
+              
+              <button
+  class="overflow-hidden mt-2  w-36 p-2 h-12 bg-orange-100 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
+>
+  Explore
+  <span
+    className="absolute w-40 h-32 -top-8 -left-2 bg-orange-200 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-bottom"
+  ></span>
+  <span
+    className="absolute w-40 h-32 -top-8 -left-2 bg-orange-400 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-bottom"
+  ></span>
+  <span
+    className="absolute w-40 h-32 -top-8 -left-2 bg-orange-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-bottom"
+  ></span>
+  <span
+    className="group-hover:opacity-100 font-serif object-cover group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-4 z-10"
+    >Foodie hub </span>
+</button>
+
             </Link>
+            
           </div>
           <div className="p-8 mt-12 mb-6 md:ml-12 justify-center">
             <div className="h-48 flex flex-wrap content-center">
