@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        Merienda: ['DANKI', 'cursive'],
-      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,6 +14,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [],
 };

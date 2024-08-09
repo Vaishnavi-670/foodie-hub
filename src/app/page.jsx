@@ -4,23 +4,20 @@ import React from 'react'
 const page = () => {
   return (
     <>
-
       {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
-
       <div className="  text-black py-15 flex flex-col ">
         <div className="container mx-auto flex font-semibold  md:flex-row items-start justify-center  md:my-20">
-          <div className=" w-full mt-5 lg:w-1/2 justify-center items-start ">
-            <h1 className="text-5xl  font-bold   text-center text-orange-700 ">Welcome to <span className='text-7xl text-orange-800'>Foodie Hub</span></h1>
-            <h2 className="text-4xl mt-3 leading-relaxed md:leading-snug mb-2">Take a taste Come join us</h2>
+          <div className=" w-full slide-in-text mt-5 lg:w-1/2 justify-center items-start ">
+            <h1 className="text-5xl  font-bold  text-center text-orange-700 slide-in-text">Welcome to <span className='text-7xl text-orange-800'>Foodie Hub</span></h1>
+            <h2 className="text-4xl mt-3 leading-relaxed md:leading-snug mb-2 ">Take a taste Come join us</h2>
             <p className="text-lg  mt-1 md:text-lg text-black ">Foodie Hub offers a mouthwatering selection of recipes, food reviews, </p>
             <p className="text-lg  md:text-lg text-black ">and culinary tips to satisfy your cravings</p>
             <p className="text-lg  md:text-lg text-black ">
               Discover the best food in town, curated by our experts.        </p>
             <Link href="/search">
               {/* <button className=" text-black mt-2 bg-orange-400 hover:bg-orange-500  px-12 py-4 rounded-lg">Explore more</button> */}
-
               <button
-                class="overflow-hidden mt-4  w-36 p-2 h-12 bg-orange-200 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
+                class="overflow-hidden fade-in-text mt-4  w-36 p-2 h-12 bg-orange-200 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
               >
                 Explore
                 <span
@@ -36,15 +33,13 @@ const page = () => {
                   className="group-hover:opacity-100 font-serif object-cover group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-4 z-10"
                 >Foodie hub </span>
               </button>
-
             </Link>
-
           </div>
           <div className="p-8 mt-12 mb-6 md:ml-12 justify-center">
             <div className="h-72 flex flex-wrap content-center">
               <div>
                 <img
-                  className="inline-block h-72 mt-24  lg:block  animated-image" style={{ width: '100%',  }}
+                  className="inline-block h-72 mt-24  lg:block  animated-image" style={{ width: '100%', }}
                   src="https://i.pinimg.com/564x/a7/c2/55/a7c255c3e78d2d36e70a36f059e94eac.jpg"
                   alt="TechFest Image 1"
                 />
@@ -69,10 +64,12 @@ const page = () => {
       </div>
       {/* menu */}
       <div className='h-[400px]   flex flex-col   w-full'>
-        <h1 className='text-center text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900  font-bold'>Our Menu</h1>
+        <h1 className='text-center text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900 fade-in-text font-bold'>Our Menu</h1>
+        <h3 className="text-black text-xl mt-3 font-bold  text-center fade-in-text">
+              Your ultimate destination for delicious recipes and food reviews
+            </h3>
         <div className=' flex '>
           <div className="ml-4 menu-item rounded-full  flex flex-col mt-6 h-[220px] w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-
             {/* <h2 className='text-center  mt-60 text-lg'>Coffee</h2> */}
           </div>
           <div className="ml-4 menu-item  rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/f4/49/ac/f449ac2876d4f16f71cb8a2bba007e27.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -87,13 +84,8 @@ const page = () => {
           </div>
           <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a0/cb/e2/a0cbe2c73e1185e727a74e22a782bc97.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
-
-
         </div>
-
       </div>
-
-
       <div className="z-30 relative items-center justify-center w-full h-full overflow-auto">
         <div
           className="inset-0 h-screen bg-cover bg-center"
@@ -140,7 +132,11 @@ const page = () => {
       </div>
       <div className='h-[600px] w-full flex flex-col'>
         <h1 className='text-center text-5xl mt-10 p-0 text-black font-bold'>How We <span className='text-orange-800'>Serve</span> you</h1>
-        <div className='flex justify-evenly mt-12 h-96 w-full'>
+        <h3 className="text-black text-xl mt-3 font-bold  text-center fade-in-text">
+        At Foodie Hub, we serve you by offering easy recipes, food trend reviews, </h3>
+        <h3 className="text-black text-xl mt-0 font-bold  text-center fade-in-text">
+        and expert tips to elevate your cooking </h3>
+                    <div className='flex justify-evenly mt-12 h-96 w-full'>
           <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
             <div className='flex justify-center  h-56 w-56'>
               <img className='h-full w-full' src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />

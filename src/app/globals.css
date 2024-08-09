@@ -31,13 +31,31 @@
   }
   
   .animated-image {
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
   
   .animated-image:hover {
     transform: scale(1.05);
     opacity: 0.8;
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-text {
+    animation: slideInLeft 2s ease-in-out;
+  }
+
+  .fade-in-text {
+    animation: fadeIn 2s ease-in-out;
   }
   
   .container-box {
@@ -232,6 +250,7 @@
 #c2:hover {
   transform: translateX(-100px) rotate(0deg) !important;
 }
+
 
 #c3:hover {
   transform: translateX(-50px) rotate(0deg) !important;
