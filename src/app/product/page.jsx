@@ -27,6 +27,7 @@ const Product = () => {
           </svg>
         </div>
       </header>
+
     </>
   );
 };
