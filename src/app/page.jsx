@@ -130,36 +130,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className='h-[600px] w-full flex flex-col'>
-        <h1 className='text-center text-5xl mt-10 p-0 text-black font-bold'>How We <span className='text-orange-800'>Serve</span> you</h1>
-        <h3 className="text-black text-xl mt-3 font-bold  text-center fade-in-text">
-        At Foodie Hub, we serve you by offering easy recipes, food trend reviews, </h3>
-        <h3 className="text-black text-xl mt-0 font-bold  text-center fade-in-text">
-        and expert tips to elevate your cooking </h3>
-                    <div className='flex justify-evenly mt-12 h-96 w-full'>
-          <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
-            <div className='flex justify-center  h-56 w-56'>
-              <img className='h-full w-full' src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />
-            </div>
-            <h3 className='text-black font-bold text-xl'>Packed with Love</h3>
-            <p className='mt-3 w-48'> We deliver the best experiences</p>
-          </div>
-          <div className=' p-6 rounded-lg w-80 shadow-lg items-center text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
-            <div className='flex justify-center  h-56 w-56'>
-              <img className='h-full w-full' src="https://media.istockphoto.com/id/482021162/photo/takeout-delivery-fast-food-bag-package-container.jpg?s=612x612&w=0&k=20&c=Ln93iQgaV20A5TUbFvdYTHjHxe2q4PRjl2YG4zyK1gw=" alt="" />
-            </div>
-            <h3 className='text-black font-bold text-xl'>Automated Packaging</h3>
-            <p className='mt-3'> 100% environment friendly packaging</p>
-          </div>
-          <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
-            <div className='flex justify-center items-center h-56 w-56'>
-              <img className='h-full w-full' src="https://media.istockphoto.com/id/1981881148/photo/popcorn-buckets-in-a-big-heap-of-popcorn-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=YvjS3WbOhAWuSftd5-sgof-Aaw6grpGZxRDSMspspug=" alt="" />
-            </div>
-            <h3 className='text-black font-bold text-xl'>Serve hot Appetite</h3>
-            <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="outer   min-h-[570px]">
         <h1 className="text-6xl mt-10 font-bold  text-center text-orange-800 ">Best Selling Food</h1>
@@ -230,6 +201,36 @@ const page = () => {
               <h3 className=" font-bold mb-2">Refreshing Mojito: A Classic Cocktail Delight</h3>
               <p className="text-black text-sm"> This classic cocktail is the perfect blend of vibrant flavors, designed to invigorate your senses and provide a delightful escape from the ordinary.</p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className='h-[600px] w-full flex flex-col'>
+        <h1 className='text-center text-5xl p-0 text-black font-bold'>How We <span className='text-orange-800'>Serve</span> you</h1>
+        <h3 className="text-black text-xl mt-3 font-bold  text-center fade-in-text">
+        At Foodie Hub, we serve you by offering easy recipes, food trend reviews, </h3>
+        <h3 className="text-black text-xl mt-0 font-bold  text-center fade-in-text">
+        and expert tips to elevate your cooking </h3>
+                    <div className='flex justify-evenly mt-12 h-96 w-full'>
+          <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+            <div className='flex justify-center  h-56 w-56'>
+              <img className='h-full w-full' src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />
+            </div>
+            <h3 className='text-black font-bold text-xl'>Packed with Love</h3>
+            <p className='mt-3 w-48'> We deliver the best experiences</p>
+          </div>
+          <div className=' p-6 rounded-lg w-80 shadow-lg items-center text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+            <div className='flex justify-center  h-56 w-56'>
+              <img className='h-full w-full' src="https://media.istockphoto.com/id/482021162/photo/takeout-delivery-fast-food-bag-package-container.jpg?s=612x612&w=0&k=20&c=Ln93iQgaV20A5TUbFvdYTHjHxe2q4PRjl2YG4zyK1gw=" alt="" />
+            </div>
+            <h3 className='text-black font-bold text-xl'>Automated Packaging</h3>
+            <p className='mt-3'> 100% environment friendly packaging</p>
+          </div>
+          <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
+            <div className='flex justify-center items-center h-56 w-56'>
+              <img className='h-full w-full' src="https://media.istockphoto.com/id/1981881148/photo/popcorn-buckets-in-a-big-heap-of-popcorn-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=YvjS3WbOhAWuSftd5-sgof-Aaw6grpGZxRDSMspspug=" alt="" />
+            </div>
+            <h3 className='text-black font-bold text-xl'>Serve hot Appetite</h3>
+            <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
           </div>
         </div>
       </div>
