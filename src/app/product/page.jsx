@@ -3,7 +3,7 @@ import React from 'react';
 const Product = () => {
   return (
     <>
-      <header className="flex flex-col  w-full">
+      <header className="flex flex-col h-[90vh] w-full">
         <div className="flex flex-col mt-40 ml-36  w-[650px] text-left ">
           <h1 className="text-6xl text-orange-700 font-bold animated-text">
             Meet, Eat &
@@ -27,6 +27,15 @@ const Product = () => {
           </svg>
         </div>
       </header>
+      <section className='h-[100vh] bg-orange-100'>
+        <div className='flex flex-col items-center justify-center h-full'>
+          <h1 className='text-6xl text-orange-700 font-bold'>Discover Our Recipes</h1>
+          <div className='flex flex-wrap justify-center gap-10'>
+            
+          </div>
+        </div>
+
+      </section>
 
     </>
   );
