@@ -241,7 +241,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/95/c6/e8/95c6e8d215c25db692ecfbb7b138a2db.jpg" />
           </div>
           <div className="card-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>"Crispy, golden, and perfectly seasoned, our fries are the ultimate comfort food"</p>
           </div>
         </div>
         <div className="card-top">
@@ -249,7 +249,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/eb/bf/0e/ebbf0e54e8c2f6d8dd5b9fb5df59a6ac.jpg" />
           </div>
           <div className="card-text">
-            <p>Quisque cursus, metus vitae pharetra auctor.</p>
+            <p>"Juicy, tender, and bursting with flavor, our chicken is a true comfort food favorite</p>
           </div>
         </div>
         <div className="card-right">
@@ -257,7 +257,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/b3/60/a4/b360a434d036bf60482dd57893fb4d2d.jpg" />
           </div>
           <div className="card-text">
-            <p>Ut eu diam at pede suscipit sodales.</p>
+            <p>Soft, sweet, and perfectly glazed, our donuts are a bite of pure indulgence.</p>
           </div>
         </div>
 
@@ -266,7 +266,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/c4/40/0f/c4400f1f2c8441cb7c6eea6844a79135.jpg" />
           </div>
           <div className="card-text">
-            <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
+            <p>our burgers are a bite of pure satisfaction. Every bite is a mouthwatering .</p>
           </div>
         </div>
         <div className="card-top">
@@ -274,7 +274,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/26/c6/4b/26c64bef44546cdc05bc2233168f32ac.jpg" />
           </div>
           <div className="card-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Cheesy, crispy, and loaded with your favorite toppings, our pizza is a slice of heaven in every bite</p>
           </div>
         </div>
         <div className="card-bottom">
@@ -282,7 +282,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/e9/a5/5a/e9a55a84854bc28bd50ab81960f371e8.jpg" />
           </div>
           <div className="card-text">
-            <p>Ut eu diam at pede suscipit sodales.</p>
+            <p>our jelly cake is a sweet treat that melts in your mouth</p>
           </div>
         </div>
         <div className="card-left">
@@ -290,7 +290,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/1b/ad/61/1bad61c9ba4d8eb85e8a775605290a80.jpg" />
           </div>
           <div className="card-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Treat yourself to a moment of sweetness !</p>
           </div>
         </div>
         <div className="card-bottom">
@@ -298,7 +298,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/76/15/16/761516543db4e3a85bbae9de0eeb0c75.jpg" />
           </div>
           <div className="card-text">
-            <p>Quisque cursus, metus vitae pharetra auctor.</p>
+            <p>Flaky, buttery, and perfectly baked, our croissants are a deliciously indulgent treat.</p>
           </div>
         </div>
         <div className="card-right">
@@ -306,7 +306,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/53/95/16/539516b637f59351cb96024a174fcfb1.jpg" />
           </div>
           <div className="card-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Rich, smooth, and decadently sweet, our chocolate is pure bliss in every bite</p>
           </div>
         </div>
         <div className="card-top">
@@ -314,7 +314,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/a7/c2/55/a7c255c3e78d2d36e70a36f059e94eac.jpg" />
           </div>
           <div className="card-text">
-            <p>Integer lacinia sollicitudin massa. Cras metus.</p>
+            <p> A unique treat that’s both refreshing and indulgent!</p>
           </div>
         </div>
         <div className="card-left">

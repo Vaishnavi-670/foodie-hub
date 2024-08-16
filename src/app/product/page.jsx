@@ -36,6 +36,54 @@ const Product = () => {
         </div>
 
       </section>
+      <div className="my-5">
+  <h1 className="text-center text-3xl">La Saveur</h1>
+  <p className="text-center text-xl italic">The Traditional French Taste</p>
+</div>
+
+<div className=" justify-around flex-row flex p-10 w-full">
+  <div className="flex flex-col w-96 mb-20">
+    <div className="card-image w-96 h-64 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      <img src="https://images.unsplash.com/photo-1604135307399-86c6ce0aba8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80" className="w-full h-full object-cover object-bottom"/>
+    </div>
+    <div className=" bg-[#8e3302] text-white p-5 mx-auto mb-[-3rem] mt-[-5.5rem] h-72 w-72 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      <p className="italic">Breakfast/Eggs</p>
+      <h2 className="text-2xl my-2">Délicieux Bénédicte</h2>
+      <p className="text-lg">Eggs Benedict with hollandaise sauce, crispy bacon, and an assortment of garden herbs.</p>
+    </div>
+    <div className="card-price bg-[#970C0A] text-white w-24 h-24 ml-auto text-2xl flex justify-center items-center shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      $56
+    </div>
+  </div>
+  <div className=" flex flex-col w-96 mb-16">
+    <div className="card-image w-96 h-64 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      <img src="https://images.unsplash.com/photo-1604135307399-86c6ce0aba8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80" className="w-full h-full object-cover object-bottom"/>
+    </div>
+    <div className=" bg-[#8e3302] text-white p-5 mx-auto mb-[-3rem] mt-[-5.5rem] h-72 w-72 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      <p className="italic">Breakfast/Eggs</p>
+      <h2 className="text-2xl my-2">Délicieux Bénédicte</h2>
+      <p className="text-lg">Eggs Benedict with hollandaise sauce, crispy bacon, and an assortment of garden herbs.</p>
+    </div>
+    <div className="card-price bg-[#970C0A] text-white w-24 h-24 ml-auto text-2xl flex justify-center items-center shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      $56
+    </div>
+  </div>
+  <div className=" flex flex-col w-96 mb-16">
+    <div className="card-image w-96 h-64 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      <img src="https://images.unsplash.com/photo-1604135307399-86c6ce0aba8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80" className="w-full h-full object-cover object-bottom"/>
+    </div>
+    <div className=" bg-[#8e3302] text-white p-5 mx-auto mb-[-3rem] mt-[-5.5rem] h-72 w-72 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      <p className="italic">Breakfast/Eggs</p>
+      <h2 className="text-2xl my-2">Délicieux Bénédicte</h2>
+      <p className="text-lg">Eggs Benedict with hollandaise sauce, crispy bacon, and an assortment of garden herbs.</p>
+    </div>
+    <div className="card-price bg-[#970C0A] text-white w-24 h-24 ml-auto text-2xl flex justify-center items-center shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
+      $56
+    </div>
+  </div>
+  
+</div>
+
 
     </>
   );
