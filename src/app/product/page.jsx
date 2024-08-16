@@ -27,18 +27,9 @@ const Product = () => {
           </svg>
         </div>
       </header>
-      <section className='h-[100vh] bg-orange-100'>
-        <div className='flex flex-col items-center justify-center h-full'>
-          <h1 className='text-6xl text-orange-700 font-bold'>Discover Our Recipes</h1>
-          <div className='flex flex-wrap justify-center gap-10'>
-            
-          </div>
-        </div>
-
-      </section>
       <div className="my-5">
-  <h1 className="text-center text-3xl">La Saveur</h1>
-  <p className="text-center text-xl italic">The Traditional French Taste</p>
+  <h1 className="text-center mt-8 font-bold text-orange-700 text-6xl">Discover our Recipe</h1>
+  <p className="text-center mt-5 text-xl font-semibold ">The Traditional French Taste</p>
 </div>
 
 <div className=" justify-around flex-row flex p-10 w-full">
