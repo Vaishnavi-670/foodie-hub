@@ -14,6 +14,15 @@ const Login = () => {
                             <span className="cursor-pointer font-sans text-xs font-bold hover:text-black">Forgot Password?</span>
                         </p>
                         <button className="p-2.5 font-sans rounded-full border-0 outline-none bg-teal-500 text-white text-base cursor-pointer shadow-md active:shadow-none hover:bg-teal-600">Login</button>
+                        <p className="mt-6 flex justify-center font-sans text-sm font-light leading-normal text-inherit antialiased">
+                            Don't have an account?
+                            <a
+                                className="ml-1 block font-sans text-sm font-bold leading-normal text-cyan-500 antialiased"
+                                href="/signup"
+                            >
+                                Sign up
+                            </a>
+                        </p>
                     </form>
 
                 </div>
