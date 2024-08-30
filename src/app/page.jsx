@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const page = () => {
   return (
@@ -115,14 +116,7 @@ const page = () => {
                   <div className="p-8">
                     <p className="text-white text-xs md:text-sm lg:text-xl mt-11 mb-4">
                       Pizza is a universally loved dish. Combining a variety of toppings with a delicious crust, pizza can be both comforting and exciting. A slice of pizza can be a quick snack or a gourmet experience.                  </p>
-                    {/* <div className="bottom-0 absolute p-2 right-0">
-                    <button className="opacity-75 bg-gray-100 hover:bg-pink-900 hover:text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      <span>LEARN MORE</span>
-                    </button>
-                  </div> */}
+                    
                   </div>
                 </div>
               </div>
