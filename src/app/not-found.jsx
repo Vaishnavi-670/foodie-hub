@@ -1,18 +1,44 @@
+import Link from 'next/link';
 import React from 'react';
 
-const NotFound = () => {
-  return (
-    <div className='flex justify-center items-center h-screen '>
-      <div className='text-center flex flex-col justify-center items-center space-y-6 p-6 rounded-lg mb-6'>
-        <h1 className='text-9xl font-bold text-red-500'>404</h1>
-        <h1 className='text-3xl font-bold text-gray-700'>Page Not Found</h1>
-        <a className='text-2xl bg-gray-400 text-black rounded-lg px-4 py-2  hover:bg-gray-600 transition duration-300' href="/">Go back to the home page</a>
-      </div>
-      <div className='flex gap-80  justify-center items-center mt-6'>
-        <img className='  rounded-lg shadow-lg' style={{ height: '40%', width: '100%' }} src="https://img.freepik.com/free-photo/robot-with-interrogation-symbol_1048-3548.jpg" alt="Robot with interrogation symbol" />
-      </div>
-    </div>
-  );
+const NotFoundPage = () => {
+    return (
+        <>
+            <div className='w-[100%]'>
+            <div className='flex h-[100vh] pl-10  w-[90%] '>
+                
+                <div className='flex w-1/2 justify-center items-center ml-20'>
+                    <img className='h-[80vh] mt-10' src="/notfound.jpg" alt="" />
+                </div>
+                <div className="flex flex-col w-1/2 items-center justify-center min-h-screen  text-gray-800">
+                    <h1 className=" text-[12em] text-center font-bold uppercase text-gray-900 transform text-shadow">
+                        404
+                    </h1>
+                    <h2 className="text-3xl font-semibold mb-2">Oops! Page Not Found</h2>
+                    <div className="mb-1">
+                        <img
+                            src="https://i.pinimg.com/564x/1a/68/14/1a68141a996be5eab90985bb4a20fe17.jpg"
+                            alt="Robot Not Found"
+                            className="w-80 h-32 object-cover"
+                        />
+                    </div>
+
+                    <p className="text-lg text-center w-[450px] mb-8">
+                        Sorry, we couldn't find the page you're looking for.
+                        But don't worry, you can explore more clay products on our homepage.
+                    </p>
+
+                    <Link
+                        href="/"
+                        className="px-6 py-3 bg-red-900 text-white text-lg font-medium rounded-full shadow-lg hover:bg-red-700 transition duration-300"
+                    >
+                        Back to Home
+                    </Link>
+                </div>
+            </div>
+            </div>
+        </>
+    );
 };
 
-export default NotFound;
+export default NotFoundPage;

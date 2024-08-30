@@ -3,31 +3,28 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-transparent rounded-lg'>
-        <nav className="flex justify-between items-center h-20 w-full">
-      <div className="nav-image">
+    <>
+       <nav className="bg-white pr-4 mt-2 w-full">
+      <div className=" flex items-center justify-between h-20">
+        <div className="flex items-center">
         <img style={{ width: 150 }} src='https://s.tmimgcdn.com/scr/1200x627/242400/food-delivery-custom-design-logo-template_242462-original.png'></img>
-      </div>
-      
-      <div className="nav-link">
-        <ul className='flex list-none'>
-          <li className='mx-2 my-2 px-2'>
-            <Link href="/login" className="text-black text-lg font-medium no-underline">Login</Link>
-            
-          </li>
-          <li className='mx-2 my-2 px-2'>
-            <Link href="#" className="text-black text-lg font-medium no-underline">About</Link>
-          </li>
-          <li className='mx-2 my-2 px-2'>
-            <Link href="/services" className="text-black text-lg font-medium no-underline">Service</Link>
-          </li>
-          <li className='mx-2 my-2 px-2'>
-            <Link href="/contact" className="text-black text-lg font-medium no-underline">Contact</Link>
-          </li>
-        </ul>
+        </div>
+        <div className="hidden md:flex space-x-8">
+          <Link href="/" className="text-gray-900 font-semibold hover:text-black px-3 py-2 rounded-full hover:bg-gray-200 transition duration-500 ease-in-out text-lg">Home</Link>
+          <Link href="/shop" className="text-gray-900 hover:text-black px-3 font-semibold py-2 rounded-full hover:bg-gray-200 transition duration-500 ease-in-out text-lg">Shop</Link>
+          <Link href="/aboutus" className="text-gray-900 hover:text-black px-3 py-2 font-semibold rounded-full hover:bg-gray-200 transition duration-500 ease-in-out text-lg">About Us</Link>
+          <Link href="/contact" className="text-gray-900 hover:text-black px-3 py-2 font-semibold rounded-full hover:bg-gray-200 transition duration-500 ease-in-out text-lg">Contact</Link>
+          <Link href="/faq" className="text-gray-900 hover:text-black px-3 py-2 font-semibold rounded-full hover:bg-gray-200 transition duration-500 ease-in-out text-lg">FAQ</Link>
+        </div>
+        <div className="flex items-center space-x-4">
+          <Link href='/login' className="text-gray-600 hover:text-black font-semibold text-lg">Log in</Link>
+          <Link href='/signup' className="bg-gray-800 text-white px-5 py-2 rounded-full hover:bg-black transition duration-300 ease-in-out">
+            Sign Up
+          </Link>
+        </div>
       </div>
     </nav>
-    </div>
+    </>
   )
 }
 
