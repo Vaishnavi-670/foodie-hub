@@ -1,22 +1,18 @@
 'use client'
-import React, { useState } from 'react'
-import Navbar from '@/components/Navbar'
-import Login from '@/components/Login'
-import Signup from '@/components/Signup'
-import Contact from '@/components/Contact'
+import React  from 'react'
+
 
 const Resturant = () => {
-  const [login, setlogin] = useState(true)
   return (
     <>
-      <div className='container'>
-        {/* <Navbar/> */}
-        {
-          login ? <Login /> : <Signup />
-        }
-        
+      <div>
+        <div>
+          <h1>Welcome to Resturant Page</h1>
+        </div>
+        <div>
+          
+        </div>
       </div>
-      {/* <ResturantFooter/> */}
       
     </>
   )
