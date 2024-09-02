@@ -1,16 +1,27 @@
 "use client"
+import { useFormik } from 'formik'
 import Link from 'next/link'
 import React  from 'react'
 
 const Login = () => {
+    const loginComponent = useFormik({
+        initialValues:{
+            email:'',
+            password:'',
+        },
+        onSubmit: (values) => {
+            console.log(values);
+            
+        }
+    })
     return (
         <>
             <div className="h-[80vh] flex justify-center items-center ">
-                <div className=" bg-white shadow-2xl rounded-lg box-border text-center  flex flex-col justify-center items-center" style={{ height: '500px', margin: '15px 0 0 0', width: '400px', padding: '20px 30px', }}>
+                <form onSubmit={loginComponent.handleSubmit} className=" bg-white shadow-2xl rounded-lg box-border text-center  flex flex-col justify-center items-center" style={{ height: '500px', margin: '15px 0 0 0', width: '400px', padding: '20px 30px', }}>
                     <p className=" font-sans text-3xl font-bold" style={{ margin: '10px 0 30px 0' }}>Log in </p>
-                    <form className="w-full flex flex-col gap-4 mb-3.5">
-                        <input type="email" className="text-base rounded-full border border-gray-400 outline-none box-border p-3.5" placeholder="Enter your email" />
-                        <input type="password" className="text-base rounded-full border border-gray-400 outline-none box-border p-3.5" placeholder="Password" />
+                     <div className="w-full flex flex-col gap-4 mb-3.5">
+                        <input id='email' onChange={loginComponent.handleChange} value={loginComponent.values.email} type="email" className="text-base rounded-full border border-gray-400 outline-none box-border p-3.5" placeholder="Enter your email" />
+                        <input id='password' onChange={loginComponent.handleChange} value={loginComponent.values.password} type="password" className="text-base rounded-full border border-gray-400 outline-none box-border p-3.5" placeholder="Password" />
                         <p className="underline m-0 text-right text-gray-600">
                             <span className="cursor-pointer font-sans text-base font-bold hover:text-black">Forgot Password?</span>
                         </p>
@@ -24,9 +35,9 @@ const Login = () => {
                                 Sign up
                             </Link>
                         </p>
-                    </form>
+                    </div>
 
-                </div>
+                </form>
             </div>
 
 

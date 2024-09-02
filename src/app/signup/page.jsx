@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Signup = () => {
+    
     return (
         <>
             <div className="h-[85vh]  flex justify-center items-center ">

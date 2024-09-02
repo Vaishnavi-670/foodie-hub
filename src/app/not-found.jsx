@@ -5,12 +5,12 @@ const NotFoundPage = () => {
     return (
         <>
             <div className='w-[100%]'>
-            <div className='flex h-[100vh] pl-10  w-[90%] '>
+            <div className='flex h-[80vh] pl-10  w-[90%] '>
                 
                 <div className='flex w-1/2 justify-center items-center ml-20'>
                     <img className='h-[80vh] mt-10' src="/notfound.jpg" alt="" />
                 </div>
-                <div className="flex flex-col w-1/2 items-center justify-center min-h-screen  text-gray-800">
+                <div className="flex flex-col w-1/2 items-center justify-center   text-gray-800">
                     <h1 className=" text-[12em] text-center font-bold uppercase text-gray-900 transform text-shadow">
                         404
                     </h1>

@@ -406,7 +406,7 @@ const page = () => {
                   <a href="#" className="text-lg text-white">Find a location</a>
                 </li>
                 <li class="mt-5">
-                  <a href="#" className="text-lg text-white">Our Info</a>
+                  <a href="/aboutus" className="text-lg text-white">Our Info</a>
                 </li>
                 <li class="mt-5">
                   <a href="#" className="text-lg text-white">Features</a>
@@ -420,7 +420,7 @@ const page = () => {
                   <a href="#" className="text-lg text-white">Shop</a>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Order ahead</a>
+                  <a href="/services" className="text-lg text-white">Our Services</a>
                 </li >
                 <li className="mt-5">
                   <a href="#" className="text-lg text-white">Menu</a>
