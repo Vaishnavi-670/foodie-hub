@@ -50,14 +50,6 @@
     }
   }
   
-  .slide-in-text {
-    animation: slideInLeft 2s ease-in-out;
-  }
-
-  .fade-in-text {
-    animation: fadeIn 2s ease-in-out;
-  }
-  
   .container-box {
     width: 100%;
     display: grid;

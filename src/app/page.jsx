@@ -8,8 +8,8 @@ const page = () => {
       {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
       <div className="  text-black py-15 flex flex-col ">
         <div className="container mx-auto flex font-semibold  md:flex-row items-start justify-center  md:my-20">
-          <div className=" w-full slide-in-text mt-5 lg:w-1/2 justify-center items-start ">
-            <h1 className="text-5xl  font-bold  text-center text-orange-700 slide-in-text">Welcome to <span className='text-7xl text-orange-800'>Foodie Hub</span></h1>
+          <div className=" w-full mt-5 lg:w-1/2 justify-center items-start ">
+            <h1 className="text-5xl  font-bold  text-center text-orange-700 ">Welcome to <span className='text-7xl text-orange-800'>Foodie Hub</span></h1>
             <h2 className="text-4xl mt-3 leading-relaxed md:leading-snug mb-2 ">Take a taste Come join us</h2>
             <p className="text-lg  mt-1 md:text-lg text-black ">Foodie Hub offers a mouthwatering selection of recipes, food reviews, </p>
             <p className="text-lg  md:text-lg text-black ">and culinary tips to satisfy your cravings</p>
@@ -18,7 +18,7 @@ const page = () => {
             <Link href="/search">
               {/* <button className=" text-black mt-2 bg-orange-400 hover:bg-orange-500  px-12 py-4 rounded-lg">Explore more</button> */}
               <button
-                class="overflow-hidden fade-in-text mt-4  w-36 p-2 h-12 bg-orange-200 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
+                class="overflow-hidden  mt-4  w-36 p-2 h-12 bg-orange-200 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
               >
                 Explore
                 <span
@@ -65,10 +65,10 @@ const page = () => {
       </div>
       {/* menu */}
       <div className='h-[400px]   flex flex-col   w-full'>
-        <h1 className='text-center text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900 fade-in-text font-bold'>Our Menu</h1>
-        <h3 className="text-black text-xl mt-3 font-bold  text-center fade-in-text">
-              Your ultimate destination for delicious recipes and food reviews
-            </h3>
+        <h1 className='text-center text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900 font-bold'>Our Menu</h1>
+        <h3 className="text-black text-xl mt-3 font-bold  text-center ">
+          Your ultimate destination for delicious recipes and food reviews
+        </h3>
         <div className=' flex '>
           <div className="ml-4 menu-item rounded-full  flex flex-col mt-6 h-[220px] w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
             {/* <h2 className='text-center  mt-60 text-lg'>Coffee</h2> */}
@@ -116,7 +116,7 @@ const page = () => {
                   <div className="p-8">
                     <p className="text-white text-xs md:text-sm lg:text-xl mt-11 mb-4">
                       Pizza is a universally loved dish. Combining a variety of toppings with a delicious crust, pizza can be both comforting and exciting. A slice of pizza can be a quick snack or a gourmet experience.                  </p>
-                    
+
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      
+
 
       <div className="outer   min-h-[570px]">
         <h1 className="text-6xl mt-10 font-bold  text-center text-orange-800 ">Best Selling Food</h1>
@@ -201,10 +201,10 @@ const page = () => {
       <div className='h-[600px] w-full flex flex-col'>
         <h1 className='text-center text-5xl p-0 text-black font-bold'>How We <span className='text-orange-800'>Serve</span> you</h1>
         <h3 className="text-black text-xl mt-3 font-bold  text-center fade-in-text">
-        At Foodie Hub, we serve you by offering easy recipes, food trend reviews, </h3>
+          At Foodie Hub, we serve you by offering easy recipes, food trend reviews, </h3>
         <h3 className="text-black text-xl mt-0 font-bold  text-center fade-in-text">
-        and expert tips to elevate your cooking </h3>
-                    <div className='flex justify-evenly mt-12 h-96 w-full'>
+          and expert tips to elevate your cooking </h3>
+        <div className='flex justify-evenly mt-12 h-96 w-full'>
           <div className=' p-6 rounded-lg w-80 items-center shadow-lg text-center flex flex-col transition-all duration-300   hover: shadow-orange-200'>
             <div className='flex justify-center  h-56 w-56'>
               <img className='h-full w-full' src="https://media.istockphoto.com/id/1283085378/photo/blank-red-and-white-craft-burger-box-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=2kYhh3HhR7tbMVhMor_zUNFF9ei66QwnroMCV7wJbRc=" alt="" />
@@ -389,12 +389,42 @@ const page = () => {
           </div>
           <div className="bg-orange-900 py-28">
             <div className="relative top-12 w-4/5 mx-auto flex justify-between">
-              <div className="text-white">
+              <div className="text-gray-200 hover:text-gray-100 transition-all ease-in">
                 <h1 className="text-5xl">Foodie Hub</h1>
-                <i className="fa fa-twitter text-4xl tracking-wider" aria-hidden="true"></i>
-                <i className="fa fa-facebook text-4xl tracking-wider" aria-hidden="true"></i>
-                <i className="fa fa-instagram text-4xl tracking-wider" aria-hidden="true"></i>
-                <i className="fa fa-linkedin text-4xl tracking-wider" aria-hidden="true"></i>
+                <div className="mt-4">
+                  <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                    <a className="text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
+                      <svg fill="currentColor" stroke-width="2"
+                        className="w-6 h-7" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a className="ml-3 text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
+                      <svg fill="currentColor" stroke-width="2"
+                        className="w-6 h-7" viewBox="0 0 24 24">
+                        <path
+                          d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                      </svg>
+                    </a>
+                    <a className="ml-3 text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
+                      <svg fill="none" stroke="currentColor"
+                        stroke-width="2" className="w-6 h-7" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                      </svg>
+                    </a>
+                    <a className="ml-3 text-gray-200 cursor-pointer hover:text-gray-100">
+                      <svg fill="currentColor" stroke="currentColor"
+                        stroke-width="0" className="w-6 h-7" viewBox="0 0 24 24">
+                        <path stroke="none"
+                          d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
                 <p className="pt-2">foodiehub@gmail.com</p>
                 <p className="pt-2">(+62) 81234567890</p>
               </div>
@@ -403,13 +433,13 @@ const page = () => {
                   <h3 className="text-2xl font-bold">About Us</h3>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Find a location</a>
+                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Find a location</Link>
                 </li>
                 <li class="mt-5">
-                  <a href="/aboutus" className="text-lg text-white">Our Info</a>
+                  <Link href="/aboutus" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Our Info</Link>
                 </li>
                 <li class="mt-5">
-                  <a href="#" className="text-lg text-white">Features</a>
+                  <Link href="/features" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Features</Link>
                 </li>
               </ul>
               <ul className="list-none">
@@ -417,16 +447,16 @@ const page = () => {
                   <h3 className="text-2xl font-bold">Service</h3>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Shop</a>
+                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Shop</Link>
                 </li>
                 <li className="mt-5">
-                  <a href="/services" className="text-lg text-white">Our Services</a>
+                  <Link href="/services" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Our Services</Link>
                 </li >
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Menu</a>
+                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Menu</Link>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Gift Cards</a>
+                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Gift Cards</Link>
                 </li>
               </ul>
               <ul className="list-none">
@@ -434,15 +464,14 @@ const page = () => {
                   <h3 className="text-2xl font-bold">Privacy</h3>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Privacy Policy</a>
+                  <a href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Privacy Policy</a>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white">Terms &amp; Condition</a>
+                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Terms &amp; Condition</Link>
                 </li>
                 <li className="mt-5">
-                  <a href="#" className="text-lg text-white"> Cookies </a>
+                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in"> Cookies </Link>
                 </li>
-
               </ul>
             </div>
           </div>
