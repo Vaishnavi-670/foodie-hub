@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-transparent mr-4 ml-4 p-1 mt-2 w-[98%]">
-        <div className="  flex items-center justify-between h-16">
+        <div className="  flex items-center justify-between h-20">
           <div className="flex items-center">
             <img style={{ width: 150 }} src='https://s.tmimgcdn.com/scr/1200x627/242400/food-delivery-custom-design-logo-template_242462-original.png'></img>
           </div>
