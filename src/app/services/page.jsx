@@ -21,7 +21,7 @@ const ServicePage = () => {
               <img
                 src="https://example.com/your-image-dining.jpg"
                 alt="Dining Experience"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg h-[450px] border shadow-lg w-full"
               />
             </div>
             <div>
@@ -56,7 +56,7 @@ const ServicePage = () => {
               <img
                 src="https://example.com/your-image-online-ordering.jpg"
                 alt="Online Ordering"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg h-[450px] border shadow-lg w-full"
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ const ServicePage = () => {
               <img
                 src="https://example.com/your-image-catering.jpg"
                 alt="Catering Service"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg h-[450px] border shadow-lg w-full"
               />
             </div>
             <div>
@@ -100,11 +100,11 @@ const ServicePage = () => {
                 <li>Recipes and techniques to take home</li>
               </ul>
             </div>
-            <div className="order-1 h-80 md:order-2">
+            <div className="order-1  md:order-2">
               <img
                 src="https://i.pinimg.com/236x/33/d1/cd/33d1cd1913f4e0c5b94e0b767a6920eb.jpg"
                 alt="Cooking Classes"
-                className="rounded-lg h-80 object-cover rotate-180 shadow-lg w-full"
+                className="rounded-lg h-[450px] border object-cover rotate-180 shadow-lg w-full"
               />
             </div>
           </div>
@@ -118,7 +118,7 @@ const ServicePage = () => {
           </p>
           <Link
             href="/contact"
-            className="inline-block px-6 py-3 bg-orange-800 text-white font-semibold rounded-xl shadow-md hover:bg-orange-600 transition-all duration-300 ease-in"
+            className="inline-block px-6 py-3 bg-orange-800 text-white font-semibold rounded-xl shadow-md hover:bg-orange-700 transition-all duration-300 ease-in"
           >
             Contact Us
           </Link>
