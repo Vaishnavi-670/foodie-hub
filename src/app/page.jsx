@@ -227,8 +227,7 @@ const page = () => {
             <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
           </div>
         </div>
-      </div>
-
+      </div>     
       <div className="container-box mt-9">
         <div className="card-left">
           <div className="card-image">
@@ -254,7 +253,6 @@ const page = () => {
             <p>Soft, sweet, and perfectly glazed, our donuts are a bite of pure indulgence.</p>
           </div>
         </div>
-
         <div className="card-right">
           <div className="card-image">
             <img src="https://i.pinimg.com/236x/c4/40/0f/c4400f1f2c8441cb7c6eea6844a79135.jpg" />
@@ -358,7 +356,6 @@ const page = () => {
           <div className="card-text">
             <p>"Savor our deliciously cooked noodles, tossed in flavorful sauces for a quick, satisfying meal"</p>
           </div>
-
         </div>
         <div className="card-right">
           <div className="card-image">
@@ -367,12 +364,57 @@ const page = () => {
           <div className="card-text">
             <p>"Enjoy our fresh sandwiches, packed with tasty ingredients for a quick and wholesome bite"</p>
           </div>
-
         </div>
-
       </div>
-
-
+      <div className='h-[75vh] mt-12 mx-32 flex w-[84%]'>
+        <div className='h-[75vh]   gap-8 w-1/2 '>
+          <div className='flex p-4  gap-8'>
+            <img className='h-1/3' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
+            <div className='flex justify-center flex-col'>
+              <h1 className='text-3xl text-gray-900'>Quality Food</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptatum iure quam totam necessitatibus laborum, magnam ut nemo explicabo est.</p>
+            </div>
+          </div>
+          <div className='flex p-4 gap-8'>
+            <img className='h-1/3' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
+            <div className='flex justify-center flex-col'>
+              <h1 className='text-3xl'>Quality Food</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptatum iure quam totam necessitatibus laborum, magnam ut nemo explicabo est.</p>
+            </div>
+          </div>
+          <div className='flex p-4 gap-8'>
+            <img className='h-1/3' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
+            <div className='flex justify-center flex-col'>
+              <h1 className='text-3xl'>Quality Food</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptatum iure quam totam necessitatibus laborum, magnam ut nemo explicabo est.</p>
+            </div>
+          </div>
+        </div>
+        <div className='h-[75vh]   gap-8 w-1/2 '>
+          {/* <h1 className='text-5xl text-center text-white'>Our <span className='text-orange-800'>Specials</span></h1> */}
+          <div className='flex p-4  gap-8'>
+            <img className='h-1/3' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
+            <div className='flex justify-center flex-col'>
+              <h1 className='text-3xl text-gray-900'>Quality Food</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptatum iure quam totam necessitatibus laborum, magnam ut nemo explicabo est.</p>
+            </div>
+          </div>
+          <div className='flex p-4 gap-8'>
+            <img className='h-1/3' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
+            <div className='flex justify-center flex-col'>
+              <h1 className='text-3xl'>Quality Food</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptatum iure quam totam necessitatibus laborum, magnam ut nemo explicabo est.</p>
+            </div>
+          </div>
+          <div className='flex p-4 gap-8'>
+            <img className='h-1/3' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
+            <div className='flex justify-center flex-col'>
+              <h1 className='text-3xl'>Quality Food</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptatum iure quam totam necessitatibus laborum, magnam ut nemo explicabo est.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer data-scroll-section="">
         <div className="mx-auto">
           <div className="relative top-20 z-10 w-3/4 mx-auto p-10 flex justify-between bg-white rounded-b-3xl shadow-2xl" data-scroll="" data-scroll-speed="5">
