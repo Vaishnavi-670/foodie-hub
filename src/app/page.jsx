@@ -316,7 +316,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/d7/d7/b4/d7d7b45ee250f40f075d3beb2607b8ea.jpg" />
           </div>
           <div className="card-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>"Savor our freshly baked cookies, perfectly crisp and chewy, crafted to satisfy your sweet cravings"</p>
           </div>
         </div>
         <div className="card-left">
@@ -324,7 +324,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/86/19/6a/86196a719c94e17763f55fe697f7e7dd.jpg" />
           </div>
           <div className="card-text">
-            <p>Ut eu diam at pede suscipit sodales.</p>
+            <p>"Enjoy our classic hot dogs, grilled to perfection and loaded with your favorite toppings for a satisfying bite"</p>
           </div>
         </div>
         <div className="card-top">
@@ -340,7 +340,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/67/f0/ed/67f0edd24c5e55da071304c0c7d264dd.jpg" />
           </div>
           <div className="card-text">
-            <p>Quisque cursus, metus vitae pharetra auctor.</p>
+            <p>"Delight in our soft, moist cakes, perfect for any celebration or sweet craving"</p>
           </div>
         </div>
         <div className="card-top">
@@ -348,7 +348,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/dd/5b/e7/dd5be76e6403afadd208235bc2b78822.jpg" />
           </div>
           <div className="card-text">
-            <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
+            <p>"Wake up to the rich aroma of our freshly brewed coffee, crafted to energize and refresh"</p>
           </div>
         </div>
         <div className="card-right">
@@ -356,7 +356,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/d7/d0/b7/d7d0b7d9ef3be7d532d7b7f12149272e.jpg" />
           </div>
           <div className="card-text">
-            <p>Ut eu diam at pede suscipit sodales.</p>
+            <p>"Savor our deliciously cooked noodles, tossed in flavorful sauces for a quick, satisfying meal"</p>
           </div>
 
         </div>
@@ -365,7 +365,7 @@ const page = () => {
             <img src="https://i.pinimg.com/236x/5f/67/03/5f6703d600dc71d1ea9eff1d3383231b.jpg" />
           </div>
           <div className="card-text">
-            <p>Ut eu diam at pede suscipit sodales.</p>
+            <p>"Enjoy our fresh sandwiches, packed with tasty ingredients for a quick and wholesome bite"</p>
           </div>
 
         </div>
