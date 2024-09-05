@@ -45,15 +45,15 @@ const FAQPage = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gray-100 p-8">
-            <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-                <h1 className="text-3xl font-semibold text-gray-800 mb-6">Frequently Asked Questions</h1>
+        <div className="min-h-screen bg-orange-50 p-8">
+            <div className="max-w-4xl mx-auto p-6 rounded-lg shadow-lg">
+                <h1 className="text-3xl font-semibold text-gray-900 mb-6">Frequently Asked Questions</h1>
                 <div>
                     {faqs.map((faq, index) => (
                         <div key={index} className="border-b border-gray-200 mb-4">
                             <button
                                 onClick={() => toggleOpen(index)}
-                                className="w-full flex justify-between items-center py-4 px-4 text-left text-gray-700 focus:outline-none"
+                                className="w-full flex justify-between items-center py-4 px-4 text-left text-gray-900 focus:outline-none"
                             >
                                 <span className="text-lg font-medium">{faq.question}</span>
                                 <svg
