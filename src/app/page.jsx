@@ -1,10 +1,33 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
+import { useEffect, useRef } from 'react';
+import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/dist/locomotive-scroll.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const page = () => {
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    const scroll = new LocomotiveScroll({
+      el: scrollRef.current,
+      smooth: true,
+      smoothMobile: true,
+      tablet: {
+        smooth: true,
+      },
+      smartphone: {
+        smooth: true,
+      },
+    });
+
+    return () => {
+      if (scroll) scroll.destroy();
+    };
+  }, []);
   return (
-    <>
+    <div data-scroll-container ref={scrollRef}>
       {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
       <div className="  text-black py-15 flex flex-col ">
         <div className="container mx-auto flex font-semibold  md:flex-row items-start justify-center  md:my-20">
@@ -227,7 +250,7 @@ const page = () => {
             <p className='w-48 mt-3'>Promise to deliver within 30 mins</p>
           </div>
         </div>
-      </div>     
+      </div>
       <div className="container-box mt-9">
         <div className="card-left">
           <div className="card-image">
@@ -371,21 +394,21 @@ const page = () => {
           <div className='flex  p-3 gap-8'>
             <img className='h-1/3 ' src="https://i.pinimg.com/236x/48/07/c5/4807c5c8f529743518bd8170ffb1b0ff.jpg" alt="" />
             <div className='flex justify-center flex-col'>
-              <h1 className='text-3xl font-semibold text-gray-950'>Quality Food</h1>
+              <h1 className='text-3xl font-semibold text-orange-800'>Quality Food</h1>
               <p className='mt-2'> We pride ourselves on delivering top-notch food service with a focus on quality, freshness, and customer satisfaction.</p>
             </div>
           </div>
           <div className='flex p-3  gap-8'>
             <img className='h-1/3 ' src="https://i.pinimg.com/236x/e6/44/ca/e644ca372cd51cc46cb34408a2efdc43.jpg" alt="" />
             <div className='flex justify-center flex-col'>
-              <h1 className='text-3xl font-semibold text-gray-950'>Ingredients</h1>
+              <h1 className='text-3xl font-semibold text-orange-800'>Ingredients</h1>
               <p className='mt-2'>We use only the freshest, highest-quality ingredients to ensure every dish is packed with flavor and nutrition.</p>
             </div>
           </div>
           <div className='flex p-0 gap-8'>
             <img className='h-1/3 w-44 ml-9' src="https://i.pinimg.com/236x/64/c5/71/64c57177b90d937f6ed9e6a6747930f0.jpg" alt="" />
             <div className='flex justify-center ml-9 flex-col'>
-              <h1 className='text-3xl font-semibold text-gray-950'>Serve Hot</h1>
+              <h1 className='text-3xl font-semibold text-orange-800'>Serve Hot</h1>
               <p className='mt-2'>We take pride in serving every dish hot and fresh, ensuring the best flavors and a satisfying experience with every bite.</p>
             </div>
           </div>
@@ -394,124 +417,124 @@ const page = () => {
           <div className='flex p-4  gap-8'>
             <img className='h-1/3 w-40' src="https://i.pinimg.com/236x/5b/e1/c1/5be1c1893d4206e5fcea386e73065a51.jpg" alt="" />
             <div className='flex justify-center flex-col'>
-              <h1 className='text-3xl font-semibold text-gray-950'>Cook Like a Chef</h1>
+              <h1 className='text-3xl font-semibold text-orange-800'>Cook Like a Chef</h1>
               <p className='mt-2'>Our team of culinary experts prepares every meal with precision, using professional techniques and the finest ingredients to ensure a dining experience that's nothing short of extraordinary.</p>
             </div>
           </div>
           <div className='flex p-4 mt-14 gap-8'>
             <img className='h-1/3 w-40' src="https://i.pinimg.com/236x/af/30/15/af3015948e137575e4d126ff859a1849.jpg" alt="" />
             <div className='flex justify-center flex-col'>
-              <h1 className='text-3xl font-semibold text-gray-950'>Easy Recipies</h1>
+              <h1 className='text-3xl font-semibold text-orange-800'>Easy Recipies</h1>
               <p className='mt-2'>With straightforward instructions and readily available ingredients, you can create flavorful meals with ease. Perfect for busy days or cooking novices, these recipes make great food achievable in no time.</p>
             </div>
           </div>
         </div>
       </div>
-      <footer data-scroll-section="">
-        <div className="mx-auto">
-          <div className="relative top-20 z-10 w-3/4 mx-auto p-6 flex justify-between bg-white rounded-b-3xl shadow-2xl" data-scroll="" data-scroll-speed="5">
-            <h1 className="text-4xl font-black mt-5 text-orange-800">Subscribe To Our Newsletter</h1>
-            <div className="w-2/5 mt-3">
-              <input type="email" placeholder="enter your email here" className="mr-7 p-3.5 bg-orange-100 w-2/5 rounded-2xl border-none text-orange-900 font-semibold outline-none" />
-              {/* <button className="p-3.5 w-2/5 bg-orange-800 rounded-lg text-white font-semibold tracking-wider mt-4 outline-none">Subscribe</button> */}
 
-              <button className="bg-gradient-to-r from-red-700 to-orange-500 hover:from-red-500 hover:to-orange-600 text-white font-bold py-3 px-6 rounded-2xl shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
-                Subscribe
-              </button>
+      <div className="mx-auto ">
+        <div className="relative top-20 z-10 w-3/4 mx-auto p-6 flex justify-between bg-white rounded-b-3xl shadow-2xl" >
+          <h1 className="text-4xl font-black mt-5 text-orange-800">Subscribe To Our Newsletter</h1>
+          <div className="w-2/5 mt-3">
+            <input type="email" placeholder="enter your email here" className="mr-7 p-3.5 bg-orange-100 w-2/5 rounded-2xl border-none text-orange-900 font-semibold outline-none" />
+            {/* <button className="p-3.5 w-2/5 bg-orange-800 rounded-lg text-white font-semibold tracking-wider mt-4 outline-none">Subscribe</button> */}
 
-            </div>
-          </div>
-          <div className="bg-orange-900 py-28">
-            <div className="relative top-12 w-4/5 mx-auto flex justify-between">
-              <div className="text-gray-200 hover:text-gray-100 transition-all ease-in">
-                <h1 className="text-5xl">Foodie Hub</h1>
-                <div className="mt-4">
-                  <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                    <a className="text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
-                      <svg fill="currentColor" stroke-width="2"
-                        className="w-6 h-7" viewBox="0 0 24 24">
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                      </svg>
-                    </a>
-                    <a className="ml-3 text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
-                      <svg fill="currentColor" stroke-width="2"
-                        className="w-6 h-7" viewBox="0 0 24 24">
-                        <path
-                          d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                        </path>
-                      </svg>
-                    </a>
-                    <a className="ml-3 text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
-                      <svg fill="none" stroke="currentColor"
-                        stroke-width="2" className="w-6 h-7" viewBox="0 0 24 24">
-                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                      </svg>
-                    </a>
-                    <a className="ml-3 text-gray-200 cursor-pointer hover:text-gray-100">
-                      <svg fill="currentColor" stroke="currentColor"
-                        stroke-width="0" className="w-6 h-7" viewBox="0 0 24 24">
-                        <path stroke="none"
-                          d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
-                        </path>
-                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
-                <p className="pt-2">foodiehub@gmail.com</p>
-                <p className="pt-2">(+62) 81234567890</p>
-              </div>
-              <ul className="list-none">
-                <li className="mt-5">
-                  <h3 className="text-2xl font-bold">About Us</h3>
-                </li>
-                <li className="mt-5">
-                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Find a location</Link>
-                </li>
-                <li class="mt-5">
-                  <Link href="/aboutus" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Our Info</Link>
-                </li>
-                <li class="mt-5">
-                  <Link href="/features" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Features</Link>
-                </li>
-              </ul>
-              <ul className="list-none">
-                <li className="mt-5">
-                  <h3 className="text-2xl font-bold">Service</h3>
-                </li>
-                <li className="mt-5">
-                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Shop</Link>
-                </li>
-                <li className="mt-5">
-                  <Link href="/services" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Our Services</Link>
-                </li >
-                <li className="mt-5">
-                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Menu</Link>
-                </li>
-                <li className="mt-5">
-                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Gift Cards</Link>
-                </li>
-              </ul>
-              <ul className="list-none">
-                <li className="mt-5">
-                  <h3 className="text-2xl font-bold">Privacy</h3>
-                </li>
-                <li className="mt-5">
-                  <a href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Privacy Policy</a>
-                </li>
-                <li className="mt-5">
-                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Terms &amp; Condition</Link>
-                </li>
-                <li className="mt-5">
-                  <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in"> Cookies </Link>
-                </li>
-              </ul>
-            </div>
+            <button className="bg-gradient-to-r from-red-700 to-orange-500 hover:from-red-500 hover:to-orange-600 text-white font-bold py-3 px-6 rounded-2xl shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
+              Subscribe
+            </button>
+
           </div>
         </div>
-      </footer>
-    </>
+        <div className="bg-orange-900 py-28">
+          <div className="relative top-12 w-4/5 mx-auto flex justify-between">
+            <div className="text-gray-200 hover:text-gray-100 transition-all ease-in">
+              <h1 className="text-5xl">Foodie Hub</h1>
+              <div className="mt-4">
+                <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                  <a className="text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
+                    <svg fill="currentColor" stroke-width="2"
+                      className="w-6 h-7" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-3 text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
+                    <svg fill="currentColor" stroke-width="2"
+                      className="w-6 h-7" viewBox="0 0 24 24">
+                      <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                      </path>
+                    </svg>
+                  </a>
+                  <a className="ml-3 text-gray-200 cursor-pointer transition-all ease-in hover:text-gray-100">
+                    <svg fill="none" stroke="currentColor"
+                      stroke-width="2" className="w-6 h-7" viewBox="0 0 24 24">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-3 text-gray-200 cursor-pointer hover:text-gray-100">
+                    <svg fill="currentColor" stroke="currentColor"
+                      stroke-width="0" className="w-6 h-7" viewBox="0 0 24 24">
+                      <path stroke="none"
+                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                      </path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+              <p className="pt-2">foodiehub@gmail.com</p>
+              <p className="pt-2">(+62) 81234567890</p>
+            </div>
+            <ul className="list-none">
+              <li className="mt-5">
+                <h3 className="text-2xl font-bold">About Us</h3>
+              </li>
+              <li className="mt-5">
+                <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Find a location</Link>
+              </li>
+              <li class="mt-5">
+                <Link href="/aboutus" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Our Info</Link>
+              </li>
+              <li class="mt-5">
+                <Link href="/features" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Features</Link>
+              </li>
+            </ul>
+            <ul className="list-none">
+              <li className="mt-5">
+                <h3 className="text-2xl font-bold">Service</h3>
+              </li>
+              <li className="mt-5">
+                <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Shop</Link>
+              </li>
+              <li className="mt-5">
+                <Link href="/services" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Our Services</Link>
+              </li >
+              <li className="mt-5">
+                <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Menu</Link>
+              </li>
+              <li className="mt-5">
+                <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Gift Cards</Link>
+              </li>
+            </ul>
+            <ul className="list-none">
+              <li className="mt-5">
+                <h3 className="text-2xl font-bold">Privacy</h3>
+              </li>
+              <li className="mt-5">
+                <a href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Privacy Policy</a>
+              </li>
+              <li className="mt-5">
+                <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in">Terms &amp; Condition</Link>
+              </li>
+              <li className="mt-5">
+                <Link href="#" className="text-lg text-gray-200 hover:text-gray-100 transition-all ease-in"> Cookies </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
   )
 }
 
