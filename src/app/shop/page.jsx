@@ -188,8 +188,31 @@ const products = [
 
 const ShopPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Our Menu</h1>
+    <div className="w-[90%]  mx-auto px-4 py-8">
+     <div className='h-[400px] flex flex-col text-center  w-full'>
+        <h1 className='text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900 font-bold'>Our Menu</h1>
+        <h3 className="text-black text-2xl mt-3 font-bold ">
+          Your ultimate destination for delicious recipes and food reviews
+        </h3>
+        <div className=' flex '>
+          <div className="ml-4 menu-item rounded-full  flex flex-col mt-6 h-[220px] w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a2/21/94/a221948320ea035ca6d5cfa64ce40430.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            {/* <h2 className='text-center  mt-60 text-lg'>Coffee</h2> */}
+          </div>
+          <div className="ml-4 menu-item  rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/f4/49/ac/f449ac2876d4f16f71cb8a2bba007e27.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          </div>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/0a/62/70/0a627091e0fb0d6dcbea50a24452d380.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          </div>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/68/c2/40/68c240f5797946566996da6780c9b61e.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          </div>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/78/71/75/78717588ec02b0cd47dd772a60d69703.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          </div>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/ab/22/b2/ab22b27ab8d6f9efc765feb700c3d6a2.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          </div>
+          <div className="ml-4 menu-item rounded-full flex flex-col mt-9 w-[220px] bg-slate-500" style={{ backgroundImage: "url('https://i.pinimg.com/236x/a0/cb/e2/a0cbe2c73e1185e727a74e22a782bc97.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          </div>
+        </div>
+      </div>
+      <h1 className="text-4xl  font-bold mb-8">Thinking of Something Delicious ?</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (
           <div key={product.id} className="border rounded-lg overflow-hidden shadow-lg">
