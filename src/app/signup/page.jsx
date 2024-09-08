@@ -31,7 +31,7 @@ const Signup = () => {
             );
             setSubmitting(false);
             if (res.status ===200){
-                enqueueSnackbar('Signed Up Successfully' ,{varient:'error'});
+                enqueueSnackbar('Signed Up Successfully' ,{varient:'Success'});
 
                 const data = await res.json();
                 localStorage.setItem('user', JSON.stringify(data));
