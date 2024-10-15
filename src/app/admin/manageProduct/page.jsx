@@ -1048,7 +1048,6 @@ const ManageProduct = () => {
         </div>
       </div>
     </div>
-    {/* End Card */}
   </div>
   
 </>
