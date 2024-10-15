@@ -1050,7 +1050,7 @@ const ManageProduct = () => {
     </div>
     {/* End Card */}
   </div>
-  {/* End Table Section */}
+  
 </>
 
     </>
