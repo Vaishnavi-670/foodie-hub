@@ -99,7 +99,6 @@ const AboutUsPage = () => {
                     </div>
                 </div>
 
-                {/* Team Section */}
                 <div className="text-center">
                     <h2 className="text-5xl font-semibold text-orange-900 mb-6">Meet Our Team</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
