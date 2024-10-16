@@ -61,7 +61,6 @@ const AboutUsPage = () => {
                     </div>
                 </div>
 
-                {/* Video Section */}
                 <div className="mb-10 h-[60vh] w-[100%]">
                     <h2 className="text-5xl font-semibold text-center text-orange-900 mb-2">Our Items</h2>
                     <div className="flex w-[100%] h-[500px] items-center justify-between">
