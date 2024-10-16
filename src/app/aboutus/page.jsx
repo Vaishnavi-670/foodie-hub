@@ -12,7 +12,6 @@ const AboutUsPage = () => {
                     </p>
                 </div>
 
-                {/* Our Story Section */}
                 <div className="mb-12 ">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <div className='h-[450px] w-[650px]'>
