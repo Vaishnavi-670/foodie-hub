@@ -121,7 +121,6 @@ const AboutUsPage = () => {
                             <h3 className="text-lg font-medium">Jane Smith</h3>
                             <p className="text-sm text-gray-600">Sous Chef</p>
                         </div>
-                        {/* Team Member 3 */}
                         <div className="flex flex-col items-center">
                             <img
                                 src="https://i.pinimg.com/236x/5f/cc/62/5fcc622fa9545d71b86cc6a7171f1df9.jpg"
