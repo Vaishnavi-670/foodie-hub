@@ -130,7 +130,6 @@ const AboutUsPage = () => {
                             <h3 className="text-lg font-medium">Michael Brown</h3>
                             <p className="text-sm text-gray-600">Pastry Chef</p>
                         </div>
-                        {/* Team Member 4 */}
                         <div className="flex flex-col items-center">
                             <img
                                 src="https://i.pinimg.com/236x/e2/70/75/e270757931b0750bad4b64950d36717b.jpg"
