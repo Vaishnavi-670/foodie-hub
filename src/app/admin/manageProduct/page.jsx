@@ -1043,7 +1043,6 @@ const ManageProduct = () => {
                 </div>
               </div>
             </div>
-            {/* End Footer */}
           </div>
         </div>
       </div>
