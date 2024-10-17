@@ -102,7 +102,7 @@ const AboutUsPage = () => {
                 <div className="text-center">
                     <h2 className="text-5xl font-semibold text-orange-900 mb-6">Meet Our Team</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {/* Team Member 1 */}
+                        
                         <div className="flex flex-col items-center">
                             <img
                                 src="https://i.pinimg.com/236x/e3/2a/9b/e32a9bc07ac183217ec27ed481074f7f.jpg"
