@@ -112,7 +112,6 @@ const AboutUsPage = () => {
                             <h3 className="text-lg font-medium">John Doe</h3>
                             <p className="text-sm text-gray-600">Head Chef</p>
                         </div>
-                        {/* Team Member 2 */}
                         <div className="flex flex-col items-center">
                             <img
                                 src="https://i.pinimg.com/236x/49/3c/e7/493ce760bc067f2530d73365ace0d66c.jpg"
