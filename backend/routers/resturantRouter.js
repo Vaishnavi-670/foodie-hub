@@ -59,7 +59,6 @@ router.put('/update/:id', (req, res) => {
         });
 });
 
-// Delete a restaurant by ID
 router.delete('/delete/:id', (req, res) => {
     Restaurant.findByIdAndDelete(req.params.id)
         .then((result) => {
