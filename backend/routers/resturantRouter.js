@@ -34,7 +34,6 @@ router.get('/getbyid/:id', (req, res) => {
         });
 });
 
-// Get restaurants by cuisine type
 router.get('/getbycuisine/:cuisine', (req, res) => {
     Restaurant.find({ cuisineType: req.params.cuisine })
         .then((result) => {
