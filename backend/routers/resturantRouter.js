@@ -14,7 +14,6 @@ router.post('/add', (req, res) => {
         });
 });
 
-// Get all restaurants
 router.get('/getall', (req, res) => {
     Restaurant.find()
         .then((result) => {
