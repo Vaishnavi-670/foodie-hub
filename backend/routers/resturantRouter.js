@@ -24,7 +24,6 @@ router.get('/getall', (req, res) => {
         });
 });
 
-// Get restaurant by ID
 router.get('/getbyid/:id', (req, res) => {
     Restaurant.findById(req.params.id)
         .then((result) => {
