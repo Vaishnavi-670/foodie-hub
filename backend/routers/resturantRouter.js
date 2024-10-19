@@ -3,7 +3,6 @@ const Restaurant = require('../models/restaurantModel');
 
 const router = express.Router();
 
-// Add a new restaurant
 router.post('/add', (req, res) => {
     console.log(req.body);
     new Restaurant(req.body).save()
