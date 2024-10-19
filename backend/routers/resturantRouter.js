@@ -44,7 +44,6 @@ router.get('/getbycuisine/:cuisine', (req, res) => {
         });
 });
 
-// Update a restaurant by ID
 router.put('/update/:id', (req, res) => {
     Restaurant.findByIdAndUpdate(req.params.id, req.body, { new: true })
         .then((result) => {

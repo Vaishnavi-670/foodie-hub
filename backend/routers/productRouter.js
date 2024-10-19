@@ -24,7 +24,6 @@ router.get('/getall',(req, res)=>{
         res.status(500).send.json(err);
     });
 });
-//getbyid
 router.get('/getbyid/:id',(req, res)=>{
     Model.findById(req.params.id)
     .then((result) => {
