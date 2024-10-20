@@ -17,9 +17,7 @@ const Product = () => {
         </div>
 
 
-        {/* <div className='flex mt-20 justify-center h-[90vh] w-full'>
-          <img style={{borderRadius:'50% '}} className=' h-[70vh] w-[50%]' src="https://i.pinimg.com/564x/9e/01/bd/9e01bd771930c0f918ce03cbdb7e56d7.jpg" alt="" />
-         </div> */}
+        
 
         <div className="custom-shape-divider-bottom-1723243014 absolute bottom-0 left-0 w-full overflow-hidden leading-none">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block" style={{ width: 'calc(187% + 1.3px)', height: '500px', transform: 'rotateY(180deg)' }}>
