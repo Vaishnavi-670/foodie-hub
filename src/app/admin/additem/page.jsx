@@ -34,6 +34,7 @@ const AddItem = () => {
   })
   return (
     <>
+    {/* AddItem */}
       <form onSubmit={additemform.handleSubmit}>
         <div className="h-[80vh] flex justify-center items-center ">
           <div className=" bg-white shadow-2xl rounded-lg h-[600px] w-[450px] box-border text-center  flex flex-col justify-center items-center" style={{ margin: '15px 0 0 0', padding: '20px 30px', }}>
