@@ -48,7 +48,6 @@ router.get('/update/:id',(req, res)=>{
     });
 });
 
-//delete
 
 router.get('/delete/:id',(req, res)=>{
     Model.findByIdAndDelete(req.params.id)
