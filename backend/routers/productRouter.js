@@ -39,7 +39,6 @@ router.get('/getbycategory/category',(req, res) => {
         res.status(500).send.json(err);
     });
 }) 
-//update
 router.get('/update/:id',(req, res)=>{
     Model.findByIdAndUpdate(req.params.id , req.body , {new:true})
     .then((result) => {
