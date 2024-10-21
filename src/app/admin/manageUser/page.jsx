@@ -84,7 +84,6 @@ useEffect(() => {
                 </div>
               </div>
             </div>
-            {/* End Header */}
             {/* Table */}
             <table className="min-w-full divide-y divide-gray-200 dark:divide-neutral-700">
               <thead className="bg-gray-50 dark:bg-neutral-800">
