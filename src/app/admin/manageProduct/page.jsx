@@ -79,7 +79,6 @@ const ManageProduct = () => {
                   </div>
                 </div>
               </div>
-              {/* End Input */}
               <div className="sm:col-span-2 md:grow">
                 <div className="flex justify-end gap-x-2">
                   <div className="hs-dropdown [--placement:bottom-right] relative inline-block">
