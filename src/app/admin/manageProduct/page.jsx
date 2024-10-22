@@ -45,7 +45,6 @@ const ManageProduct = () => {
         <div className="p-1.5 min-w-full inline-block align-middle">
           <div className="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden dark:bg-neutral-900 dark:border-neutral-700">
             <div className="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-b border-gray-200 dark:border-neutral-700">
-              {/* Input */}
               <div className="sm:col-span-1">
                 <label
                   htmlFor="hs-as-table-product-review-search"
