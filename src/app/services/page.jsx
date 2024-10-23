@@ -5,7 +5,6 @@ const ServicePage = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       <div className=" mx-auto py-16 w-[85%] text-center px-4 sm:px-6 lg:px-8">
-        {/* Introduction Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-orange-800 mb-4">Our Services</h1>
           <p className="text-lg max-w-2xl mx-auto">
