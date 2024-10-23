@@ -979,7 +979,6 @@ const ManageProduct = () => {
                 </tr>
               </tbody>
             </table>
-            {/* End Table */}
             {/* Footer */}
             <div className="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-t border-gray-200 dark:border-neutral-700">
               <div className="max-w-sm space-y-3">
