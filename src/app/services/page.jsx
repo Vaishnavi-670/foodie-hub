@@ -125,7 +125,6 @@ const ServicePage = () => {
           </div>
         </div>
 
-        {/* Call to Action Section */}
         <div className="text-center mt-16">
           <h2 className="text-3xl font-semibold text-orange-800 mb-6">Ready to Experience the Best?</h2>
           <p className="text-lg mb-6">
