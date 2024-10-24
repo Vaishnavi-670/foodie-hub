@@ -47,7 +47,6 @@ const ServicePage = () => {
             </div>
           </div>
         </div>
-        {/* Service 3: Catering Service */}
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
