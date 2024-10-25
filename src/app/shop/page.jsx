@@ -188,6 +188,7 @@ const products = [
 
 const ShopPage = () => {
   return (
+    //shop
     <div className="w-[90%]  mx-auto px-4 py-8">
      <div className='h-[400px] flex flex-col text-center  w-full'>
         <h1 className='text-5xl mt-7 p-0 text-orange-800 hover:text-orange-900 font-bold'>Our Menu</h1>
