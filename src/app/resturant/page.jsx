@@ -3,7 +3,6 @@ import React from 'react';
 const RestaurantPage = () => {
   return (
     <div className="bg-gray-100 text-gray-800">
-      {/* Hero Section */}
       <section className="bg-cover bg-center h-screen" style={{ backgroundImage: "url('')" }}>
         <div className="flex items-center justify-center h-full bg-black bg-opacity-50">
           <h1 className="text-6xl font-bold text-white text-center">Welcome to Foodie Hub</h1>
