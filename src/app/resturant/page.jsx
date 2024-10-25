@@ -9,7 +9,6 @@ const RestaurantPage = () => {
         </div>
       </section>
 
-      {/* Featured Dishes Section */}
       <section className="py-16">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-12">Our Featured Dishes</h2>
