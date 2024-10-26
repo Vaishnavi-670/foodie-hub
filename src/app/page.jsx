@@ -28,7 +28,6 @@ const page = () => {
   }, []);
   return (
     <div data-scroll-container ref={scrollRef}>
-      {/* <video style={{bottom:'0', zIndex:-1}} src=""></video> */}
       <div className="  text-black py-15 flex flex-col ">
         <div className="container mx-auto flex font-semibold  md:flex-row items-start justify-center  md:my-20">
           <div className=" w-full mt-5 lg:w-1/2 justify-center items-start ">
