@@ -427,7 +427,7 @@ const page = () => {
           </div>
         </div>
       </div>
-
+{/* footer */}
       <div className="mx-auto ">
         <div className="relative top-20 z-10 w-3/4 mx-auto p-6 flex justify-between bg-white rounded-b-3xl shadow-2xl" >
           <h1 className="text-4xl font-black mt-5 text-orange-800">Subscribe To Our Newsletter</h1>
