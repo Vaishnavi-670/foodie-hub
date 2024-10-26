@@ -433,7 +433,6 @@ const page = () => {
           <h1 className="text-4xl font-black mt-5 text-orange-800">Subscribe To Our Newsletter</h1>
           <div className="w-2/5 mt-3">
             <input type="email" placeholder="enter your email here" className="mr-7 p-3.5 bg-orange-100 w-2/5 rounded-2xl border-none text-orange-900 font-semibold outline-none" />
-            {/* <button className="p-3.5 w-2/5 bg-orange-800 rounded-lg text-white font-semibold tracking-wider mt-4 outline-none">Subscribe</button> */}
 
             <button className="bg-gradient-to-r from-red-700 to-orange-500 hover:from-red-500 hover:to-orange-600 text-white font-bold py-3 px-6 rounded-2xl shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
               Subscribe
