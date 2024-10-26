@@ -38,7 +38,6 @@ const page = () => {
             <p className="text-lg  md:text-lg text-black ">
               Discover the best food in town, curated by our experts.        </p>
             <Link href="/search">
-              {/* <button className=" text-black mt-2 bg-orange-400 hover:bg-orange-500  px-12 py-4 rounded-lg">Explore more</button> */}
               <button
                 class="overflow-hidden  mt-4  w-36 p-2 h-12 bg-orange-200 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
               >
