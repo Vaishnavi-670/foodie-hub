@@ -325,12 +325,12 @@ useEffect(() => {
                   </td>
                   <td className="size-px whitespace-nowrap">
                     <div className="px-6 py-1.5">
-                      <a
+                      <Link
                         className="inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500"
                         href="#"
                       >
                         Edit
-                      </a>
+                      </Link>
                     </div>
                   </td>
                 </tr>
