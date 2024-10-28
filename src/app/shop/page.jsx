@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import React from 'react';
 
 const products = [
@@ -216,14 +217,14 @@ const ShopPage = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (
           <div key={product.id} className="border rounded-lg overflow-hidden shadow-lg">
-            <a href={`/product/${product.id}`}>
+            <Link href={`/product/${product.id}`}>
               <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
                 <p className="text-gray-700 mb-2">{product.description}</p>
                 <span className="text-lg font-bold">{product.price}</span>
               </div>
-            </a>
+            </Link>
           </div>
         ))}
       </div>
