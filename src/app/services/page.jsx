@@ -66,7 +66,7 @@ const ServicePage = () => {
                 <li>Wide range of menu options</li>
               </ul>
             </div>
-            
+
           </div>
         </div>
         <div className="mb-20">
@@ -76,6 +76,7 @@ const ServicePage = () => {
               <p className="text-lg mb-4">
                 Join our interactive cooking classes and learn from the best chefs. Whether you’re a beginner or an experienced cook, our classes are designed to enhance your culinary skills and inspire your creativity in the kitchen.
               </p>
+              
               <ul className="list-disc pl-5 space-y-2">
                 <li>Hands-on cooking experience</li>
                 <li>Expert guidance from professional chefs</li>
