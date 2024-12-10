@@ -11,6 +11,7 @@ const ServicePage = () => {
             At Foodie Hub, we are dedicated to providing exceptional services that ensure a delightful experience for our customers. Discover the range of services we offer to make your dining and culinary journey unforgettable.
           </p>
         </div>
+
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
@@ -47,6 +48,7 @@ const ServicePage = () => {
             </div>
           </div>
         </div>
+        
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>

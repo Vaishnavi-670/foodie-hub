@@ -53,14 +53,14 @@ const products = [
     price: '$9.99',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Poori',
     image: 'https://i.pinimg.com/236x/8a/89/b5/8a89b5043348a3439effdf63febdeeb0.jpg',
     description: 'Juicy cheeseburger with lettuce, tomato, and pickles.',
     price: '$9.99',
   },
   {
-    id: 7,
+    id: 9,
     name: 'Idli',
     image: 'https://i.pinimg.com/236x/f4/d5/35/f4d535a76f86f7c909f15cf0457ccbf2.jpg',
     description: 'Juicy cheeseburger with lettuce, tomato, and pickles.',
