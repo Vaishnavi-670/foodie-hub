@@ -43,7 +43,7 @@ const ServicePage = () => {
                 <li>Reliable and prompt delivery service</li>
               </ul>
             </div>
-            
+
             <div className="order-1 md:order-2">
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Ordering.mp4"></video>
             </div>
@@ -66,6 +66,7 @@ const ServicePage = () => {
                 <li>Wide range of menu options</li>
               </ul>
             </div>
+            
           </div>
         </div>
         <div className="mb-20">
