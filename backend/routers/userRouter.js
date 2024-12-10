@@ -33,14 +33,14 @@ router.get('/getbyid/:id',(req, res)=>{
     });
 });
 
-router.getbyemail('/getbyemail/:email',(req, res)=>{
-    Model.findByEmail(req.params.email)
-    .then((result) => {
-       res.status(200).json(result); 
-    }).catch((err) => {
-        res.status(500).json(err);
-    });
-});
+// router.getbyemail('/getbyemail/:email',(req, res)=>{
+//     Model.findByEmail(req.params.email)
+//     .then((result) => {
+//        res.status(200).json(result); 
+//     }).catch((err) => {
+//         res.status(500).json(err);
+//     });
+// });
 router.get('/update/:id',(req, res)=>{
     Model.findByIdAndUpdate(req.params.id, req.body,  {new:true}) 
     .then((result) => {
