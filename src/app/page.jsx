@@ -5,7 +5,6 @@ import { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
 const page = () => {
   const scrollRef = useRef(null);
 
