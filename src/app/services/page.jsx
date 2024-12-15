@@ -17,6 +17,7 @@ const ServicePage = () => {
             <div>
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/dining.mp4"></video>
             </div>
+            
             <div>
               <h2 className="text-3xl font-semibold text-orange-800 mb-4">Exceptional Dining Experience</h2>
               <p className="text-lg mb-4">
