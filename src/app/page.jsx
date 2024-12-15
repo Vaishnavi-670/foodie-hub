@@ -40,6 +40,7 @@ const page = () => {
               <button
                 class="overflow-hidden  mt-4  w-36 p-2 h-12 bg-orange-200 text-black border-none rounded-3xl text-xl font-bold cursor-pointer relative z-10 group"
               >
+              
                 Explore
                 <span
                   className="absolute w-40 h-32 -top-8 -left-2 bg-orange-300 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-bottom"
