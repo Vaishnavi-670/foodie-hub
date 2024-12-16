@@ -112,6 +112,7 @@ const ServicePage = () => {
                 <p className='mt-2'>We take pride in serving every dish hot and fresh, ensuring the best flavors and a satisfying experience with every bite.</p>
               </div>
             </div>
+            
           </div>
           <div className='h-[75vh]   gap-8 w-1/2 '>
             <div className='flex p-4  gap-8'>
@@ -143,7 +144,7 @@ const ServicePage = () => {
           >
             Contact Us
           </Link>
-          
+
         </div>
 
       </div>
