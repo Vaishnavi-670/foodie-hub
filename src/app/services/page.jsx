@@ -121,6 +121,7 @@ const ServicePage = () => {
                 <p className='mt-2'>Our team of culinary experts prepares every meal with precision, using professional techniques and the finest ingredients to ensure a dining experience that's nothing short of extraordinary.</p>
               </div>
             </div>
+            
             <div className='flex p-4 mt-14 gap-8'>
               <img className='h-1/3 w-40' src="https://i.pinimg.com/236x/af/30/15/af3015948e137575e4d126ff859a1849.jpg" alt="" />
               <div className='flex justify-center flex-col'>
@@ -128,7 +129,7 @@ const ServicePage = () => {
                 <p className='mt-2'>With straightforward instructions and readily available ingredients, you can create flavorful meals with ease. Perfect for busy days or cooking novices, these recipes make great food achievable in no time.</p>
               </div>
             </div>
-            
+
           </div>
         </div>
         <div className="text-center mt-16">
