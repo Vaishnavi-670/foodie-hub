@@ -128,6 +128,7 @@ const ServicePage = () => {
                 <p className='mt-2'>With straightforward instructions and readily available ingredients, you can create flavorful meals with ease. Perfect for busy days or cooking novices, these recipes make great food achievable in no time.</p>
               </div>
             </div>
+            
           </div>
         </div>
         <div className="text-center mt-16">
