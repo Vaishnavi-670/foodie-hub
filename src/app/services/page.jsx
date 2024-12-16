@@ -88,6 +88,7 @@ const ServicePage = () => {
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Cooking.mp4"></video>
             </div>
           </div>
+          
         </div>
         <div className='h-[75vh] mt-16  flex w-full'>
           <div className='h-[75vh]  w-1/2 '>
@@ -112,7 +113,7 @@ const ServicePage = () => {
                 <p className='mt-2'>We take pride in serving every dish hot and fresh, ensuring the best flavors and a satisfying experience with every bite.</p>
               </div>
             </div>
-            
+
           </div>
           <div className='h-[75vh]   gap-8 w-1/2 '>
             <div className='flex p-4  gap-8'>
