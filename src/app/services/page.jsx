@@ -99,6 +99,7 @@ const ServicePage = () => {
                 <p className='mt-2'> We pride ourselves on delivering top-notch food service with a focus on quality, freshness, and customer satisfaction.</p>
               </div>
             </div>
+            
             <div className='flex p-3  gap-8'>
               <img className='h-1/3 ' src="https://i.pinimg.com/236x/e6/44/ca/e644ca372cd51cc46cb34408a2efdc43.jpg" alt="" />
               <div className='flex justify-center flex-col'>
@@ -106,7 +107,7 @@ const ServicePage = () => {
                 <p className='mt-2'>We use only the freshest, highest-quality ingredients to ensure every dish is packed with flavor and nutrition.</p>
               </div>
             </div>
-            
+
             <div className='flex p-0 gap-8'>
               <img className='h-1/3 w-44 ml-9' src="https://i.pinimg.com/236x/64/c5/71/64c57177b90d937f6ed9e6a6747930f0.jpg" alt="" />
               <div className='flex justify-center ml-9 flex-col'>
