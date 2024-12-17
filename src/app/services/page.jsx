@@ -62,7 +62,7 @@ const ServicePage = () => {
               <p className="text-lg mb-4">
                 Make your next event memorable with our professional catering services. We cater to events of all sizes, providing customized menus that meet your needs and exceed your expectations.
               </p>
-              
+
               <ul className="list-disc pl-5 space-y-2">
                 <li>Customizable catering packages</li>
                 <li>Experienced and professional staff</li>
@@ -85,6 +85,7 @@ const ServicePage = () => {
                 <li>Expert guidance from professional chefs</li>
                 <li>Recipes and techniques to take home</li>
               </ul>
+              
             </div>
             <div className="order-1  md:order-2">
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Cooking.mp4"></video>
