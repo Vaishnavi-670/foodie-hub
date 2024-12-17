@@ -57,6 +57,7 @@ const ServicePage = () => {
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Catering.mp4"></video>
             </div>
             <div>
+              
               <h2 className="text-3xl font-semibold text-orange-800 mb-4">Professional Catering Services</h2>
               <p className="text-lg mb-4">
                 Make your next event memorable with our professional catering services. We cater to events of all sizes, providing customized menus that meet your needs and exceed your expectations.
@@ -99,7 +100,7 @@ const ServicePage = () => {
                 <p className='mt-2'> We pride ourselves on delivering top-notch food service with a focus on quality, freshness, and customer satisfaction.</p>
               </div>
             </div>
-            
+
             <div className='flex p-3  gap-8'>
               <img className='h-1/3 ' src="https://i.pinimg.com/236x/e6/44/ca/e644ca372cd51cc46cb34408a2efdc43.jpg" alt="" />
               <div className='flex justify-center flex-col'>
