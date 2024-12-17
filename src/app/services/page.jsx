@@ -57,11 +57,12 @@ const ServicePage = () => {
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Catering.mp4"></video>
             </div>
             <div>
-              
+
               <h2 className="text-3xl font-semibold text-orange-800 mb-4">Professional Catering Services</h2>
               <p className="text-lg mb-4">
                 Make your next event memorable with our professional catering services. We cater to events of all sizes, providing customized menus that meet your needs and exceed your expectations.
               </p>
+              
               <ul className="list-disc pl-5 space-y-2">
                 <li>Customizable catering packages</li>
                 <li>Experienced and professional staff</li>
