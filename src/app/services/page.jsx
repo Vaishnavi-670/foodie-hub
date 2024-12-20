@@ -17,7 +17,7 @@ const ServicePage = () => {
             <div>
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/dining.mp4"></video>
             </div>
-            
+
             <div>
               <h2 className="text-3xl font-semibold text-orange-800 mb-4">Exceptional Dining Experience</h2>
               <p className="text-lg mb-4">
@@ -79,19 +79,19 @@ const ServicePage = () => {
               <p className="text-lg mb-4">
                 Join our interactive cooking classes and learn from the best chefs. Whether you’re a beginner or an experienced cook, our classes are designed to enhance your culinary skills and inspire your creativity in the kitchen.
               </p>
-              
+
               <ul className="list-disc pl-5 space-y-2">
                 <li>Hands-on cooking experience</li>
                 <li>Expert guidance from professional chefs</li>
                 <li>Recipes and techniques to take home</li>
               </ul>
-              
+
             </div>
             <div className="order-1  md:order-2">
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Cooking.mp4"></video>
             </div>
           </div>
-          
+
         </div>
         <div className='h-[75vh] mt-16  flex w-full'>
           <div className='h-[75vh]  w-1/2 '>
