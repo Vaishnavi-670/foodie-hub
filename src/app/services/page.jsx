@@ -67,9 +67,10 @@ const ServicePage = () => {
                 <li>Experienced and professional staff</li>
                 <li>Wide range of menu options</li>
               </ul>
+              
             </div>
           </div>
-          
+
         </div>
         <div className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
