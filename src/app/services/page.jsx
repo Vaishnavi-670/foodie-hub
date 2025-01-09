@@ -69,7 +69,6 @@ const ServicePage = () => {
               </ul>
 
             </div>
-
           </div>
         </div>
         <div className="mb-20">
