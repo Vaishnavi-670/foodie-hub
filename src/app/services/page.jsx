@@ -89,7 +89,6 @@ const ServicePage = () => {
               <video loop muted autoPlay className="rounded-lg h-[450px] border shadow-lg w-full object-cover" src="/Cooking.mp4"></video>
             </div>
           </div>
-
         </div>
         <div className='h-[75vh] mt-16  flex w-full'>
           <div className='h-[75vh]  w-1/2 '>
