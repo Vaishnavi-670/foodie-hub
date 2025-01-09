@@ -67,7 +67,6 @@ const ServicePage = () => {
                 <li>Experienced and professional staff</li>
                 <li>Wide range of menu options</li>
               </ul>
-
             </div>
           </div>
         </div>
