@@ -74,8 +74,6 @@ const ServicePage = () => {
 
         </div>
         <div className="mb-20">
-          
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <h2 className="text-3xl font-semibold text-orange-800 mb-4">Interactive Cooking Classes</h2>
