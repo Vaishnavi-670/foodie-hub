@@ -68,8 +68,9 @@ const ServicePage = () => {
                 <li>Wide range of menu options</li>
               </ul>
             </div>
-            
+
           </div>
+          
         </div>
 
 
