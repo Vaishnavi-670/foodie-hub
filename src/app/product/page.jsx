@@ -9,6 +9,7 @@ const Product = () => {
             Meet, Eat &
             <span className="text-6xl text-black font-normal animated-text"> Enjoy The True Taste</span>
           </h1>
+          
           <p className="mt-3 text-lg text-dark font-normal sub-title animated-text">
             where we bring you authentic flavors, curated recipes, and dining experiences that capture the essence of great food. Discover the joy of delicious, genuine tastes with every bite </p>
           <button className="bg-orange-200 mt-5 hover:bg-orange-400 text-black font-bold py-3 w-40 px-6 rounded-full shadow-lg shadow-neutral-400 hover:text-orange-700 transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
