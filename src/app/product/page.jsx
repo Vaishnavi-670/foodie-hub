@@ -24,8 +24,9 @@ const Product = () => {
           </svg>
 
         </div>
-        
+
       </header>
+      
       <div className="my-5">
         <h1 className="text-center mt-8 font-bold text-orange-700 text-6xl">Discover our Recipe</h1>
         <p className="text-center mt-5 text-xl font-semibold ">The Traditional French Taste</p>
