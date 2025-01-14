@@ -28,7 +28,7 @@ const Product = () => {
       </header>
 
       <div className="my-5">
-        
+
         <h1 className="text-center mt-8 font-bold text-orange-700 text-6xl">Discover our Recipe</h1>
         <p className="text-center mt-5 text-xl font-semibold ">The Traditional French Taste</p>
       </div>
@@ -38,6 +38,7 @@ const Product = () => {
           <div className="card-image w-96 h-64 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
             <img src="https://images.unsplash.com/photo-1604135307399-86c6ce0aba8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80" className="w-full h-full object-cover object-bottom" />
           </div>
+          
           <div className=" bg-[#8e3302] text-white p-5 mx-auto mb-[-3rem] mt-[-5.5rem] h-72 w-72 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
             <p className="italic">Breakfast/Eggs</p>
             <h2 className="text-2xl my-2">Délicieux Bénédicte</h2>
