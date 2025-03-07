@@ -29,7 +29,6 @@ const Product = () => {
         <h1 className="text-center mt-8 font-bold text-orange-700 text-6xl">Discover our Recipe</h1>
         <p className="text-center mt-5 text-xl font-semibold ">The Traditional French Taste</p>
       </div>
-
       <div className=" justify-around flex-row flex p-10 w-full">
         <div className="flex flex-col w-96 mb-20">
           <div className="card-image w-96 h-64 shadow-[0_15px_20px_0_rgba(0,0,0,0.5)]">
