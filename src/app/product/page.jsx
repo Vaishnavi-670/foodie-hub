@@ -24,7 +24,6 @@ const Product = () => {
           </svg>
 
         </div>
-
       </header>
       <div className="my-5">
 
